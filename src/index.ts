@@ -10,5 +10,3 @@ const platforms: Platform[] = platformsRaw.map(
 );
 
 export { platforms };
-
-export const getPlatforms = () => platforms;
