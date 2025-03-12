@@ -1,6 +1,8 @@
 import platformsRaw from "./platforms";
 import { Platform } from "./types";
 
+export * from "./utils";
+
 const platforms: Platform[] = platformsRaw.map(
   (p): Platform => ({
     ...p,
@@ -8,16 +10,5 @@ const platforms: Platform[] = platformsRaw.map(
     isDeprecated: p.isDeprecated || false,
   }),
 );
-
-export async function fetchPlatforms(): Promise<Platform[]> {
-  const response = await fetch(
-    "https://github.com/sonarwatch/hub-platforms/releases/latest/download/platforms.json",
-  );
-  if (!response.ok) {
-    throw new Error("Failed to fetch platforms");
-  }
-  const data: Platform[] = await response.json();
-  return data;
-}
 
 export { platforms };

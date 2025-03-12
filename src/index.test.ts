@@ -1,6 +1,5 @@
 import { platforms } from "./index";
 import { z } from "zod";
-import { fetchPlatforms } from "./index";
 
 const PlatformSchema = z.object({
   id: z.string(),
@@ -37,12 +36,5 @@ describe("Platforms", () => {
     const ids = platforms.map((platform) => platform.id);
     const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
     expect(duplicates).toEqual([]);
-  });
-});
-
-describe("fetchPlatforms", () => {
-  it("should return an array of platforms", async () => {
-    const result = await fetchPlatforms();
-    expect(Array.isArray(result)).toBeTruthy();
   });
 });
