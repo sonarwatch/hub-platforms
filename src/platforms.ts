@@ -661,10 +661,10 @@ const platforms: PlatformRaw[] = [
     },
   },
   {
-    id: "ore-refinery",
-    name: "Ore Refinery",
+    id: "ore",
+    name: "Ore",
     links: {
-      website: "https://ore-refinery.netlify.app/",
+      website: "https://ore.supply/",
       twitter: "https://twitter.com/OreSupply",
     },
   },
@@ -924,11 +924,11 @@ const platforms: PlatformRaw[] = [
   },
   {
     id: "futarchy",
-    name: "Futarchy",
+    name: "MetaDAO",
     description:
-      "Futarchy is a DAO that uses prediction markets to make decisions.",
+      "MetaDAO is a DAO that uses prediction markets to make decisions.",
     links: {
-      website: "https://futarchy.metadao.fi/",
+      website: "https://metadao.fi/",
       discord: "https://discord.com/invite/metadao",
       twitter: "https://x.com/MetaDAOProject",
       github: "https://github.com/metaDAOproject",
@@ -1523,7 +1523,10 @@ const platforms: PlatformRaw[] = [
     id: "carrot",
     name: "Carrot",
     defiLlamaId: "carrot",
-    links: { website: "https://use.deficarrot.com/" },
+    links: {
+      website: "https://deficarrot.com/",
+      twitter: "https://x.com/DeFiCarrot",
+    },
   },
   {
     id: "stepfinance",
@@ -1544,8 +1547,11 @@ const platforms: PlatformRaw[] = [
   },
   {
     id: "asgardfi",
-    name: "Asgard",
-    links: { website: "https://asgardfi.com/" },
+    name: "Asgard Finance",
+    links: {
+      website: "https://asgardfi.com/",
+      twitter: "https://x.com/asgardfi",
+    },
   },
 ];
 export default platforms;
