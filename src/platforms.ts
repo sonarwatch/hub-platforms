@@ -163,7 +163,7 @@ const platforms: PlatformRaw[] = [
     defiLlamaId: "parent#mango-markets",
     isDeprecated: true,
     links: {
-      website: "mango-v4-ui.vercel.app ",
+      website: "https://mango.markets/",
       discord: "https://discord.com/invite/pcSkP3yJMU",
       twitter: "https://twitter.com/mangomarkets",
       github: "https://discord.gg/pcSkP3yJMUs",
@@ -351,7 +351,7 @@ const platforms: PlatformRaw[] = [
     defiLlamaId: "rain.fi",
     links: {
       website: "https://rain.fi/",
-      discord: "discord.gg/rainfi",
+      discord: "https://discord.gg/rainfi",
       twitter: "https://twitter.com/RainFi_",
       github: "https://github.com/rain-foundation",
       medium: "https://medium.com/@rainfi_",
@@ -464,7 +464,7 @@ const platforms: PlatformRaw[] = [
     links: {
       website: "https://app.knightrade.io/",
       discord: "https://discord.gg/TKMrEJzCM4 ",
-      telegram: "t.me/knightrade",
+      telegram: "https://t.me/knightrade",
       twitter: "https://x.com/KnightradeTeam",
       documentation: "https://doc.knightrade.io/",
     },
@@ -567,7 +567,7 @@ const platforms: PlatformRaw[] = [
     links: {
       website: "https://claim.bskt.fi/",
       discord: "https://discord.gg/VdSdWqpqQ6",
-      telegram: "t.me/BSKT_FI",
+      telegram: "https://t.me/BSKT_FI",
       twitter: "https://twitter.com/bsktfi",
       documentation: "https://www.bskt.fi/bskt-whitepaper.pdf",
     },
@@ -736,7 +736,7 @@ const platforms: PlatformRaw[] = [
     defiLlamaId: "phoenix",
     links: {
       website: "https://www.phoenix.trade/",
-      discord: "discord.gg/ESaTYGzqpd",
+      discord: "https://discord.gg/ESaTYGzqpd",
       twitter: "https://twitter.com/PhoenixTrade",
       github: "https://github.com/Ellipsis-Labs",
       documentation:
@@ -981,7 +981,7 @@ const platforms: PlatformRaw[] = [
     defiLlamaId: "parent#sanctum",
     links: {
       website: "https://www.sanctum.so/",
-      discord: "discord.gg/sanctumso",
+      discord: "https://discord.gg/sanctumso",
       twitter: "https://twitter.com/sanctumso",
       github: "https://github.com/igneous-labs",
       documentation: "https://learn.sanctum.so/docs",
@@ -1111,7 +1111,7 @@ const platforms: PlatformRaw[] = [
     isDeprecated: true,
     links: {
       website: "https://francium.io/",
-      discord: "discord.gg/francium",
+      discord: "https://discord.gg/francium",
       telegram: "https://t.me/franciumprotocol",
       twitter: "https://x.com/Francium_Defi",
       github: "https://github.com/Francium-DeFi",
@@ -1250,7 +1250,7 @@ const platforms: PlatformRaw[] = [
     description: "Build decentralizedapplications on Solana and the SVM",
     links: {
       website: "https://resize.metaplex.com",
-      discord: "discord.gg/metaplex",
+      discord: "https://discord.gg/metaplex",
       twitter: "https://x.com/metaplex",
       github: "https://github.com/metaplex-foundation",
       documentation: "https://www.metaplex.com/guides",
@@ -1300,7 +1300,7 @@ const platforms: PlatformRaw[] = [
     name: "Pudgy Penguins",
     links: {
       website: "https://pudgypenguins.com/",
-      discord: "discord.gg/pudgypenguins",
+      discord: "https://discord.gg/pudgypenguins",
       twitter: "https://x.com/pudgypenguins",
     },
   },
@@ -1546,20 +1546,6 @@ const platforms: PlatformRaw[] = [
     id: "asgardfi",
     name: "Asgard",
     links: { website: "https://asgardfi.com/" },
-  },
-  {
-    id: "zeta",
-    name: "Zeta",
-    description: "Zeta Markets is the premier derivatives protocol on Solana.",
-    defiLlamaId: "zeta",
-    links: {
-      website: "https://www.zeta.markets/",
-      discord: "https://discord.gg/Xn9HCJaDZd",
-      telegram: "https://t.me/realzetamarkets",
-      twitter: "https://x.com/ZetaMarkets",
-      github: "https://github.com/zetamarkets",
-      documentation: "https://docs.zeta.markets/",
-    },
   },
 ];
 export default platforms;
