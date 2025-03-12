@@ -1,4 +1,4 @@
-import { platforms } from "./index";
+import { platforms } from "../src/index";
 import { z } from "zod";
 
 const PlatformSchema = z.object({
@@ -27,7 +27,13 @@ describe("Platforms", () => {
 
   it("should match the PlatformSchema", () => {
     platforms.forEach((platform) => {
-      expect(() => PlatformSchema.parse(platform)).not.toThrow();
+      try {
+        PlatformSchema.parse(platform);
+      } catch (e) {
+        throw new Error(
+          `Platform does not match the schema (${platform.id}): ${e}`,
+        );
+      }
     });
   });
 

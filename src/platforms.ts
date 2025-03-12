@@ -12,7 +12,7 @@ const platforms: PlatformRaw[] = [
     id: "bar",
     name: "bar platform",
     links: {
-      website: "https://bar.com",
+      website: "hpbar",
     },
   },
 ];
