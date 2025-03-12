@@ -116,24 +116,7 @@ const platforms: PlatformRaw[] = [
       documentation: "https://docs.meteora.ag/",
     },
   },
-  {
-    id: "cetus",
-    name: "Cetus",
-    defiLlamaId: "parent#cetus",
-    links: { website: "https://www.cetus.zone/" },
-  },
-  {
-    id: "turbos",
-    name: "Turbos",
-    defiLlamaId: "turbos",
-    links: { website: "https://app.turbos.finance/" },
-  },
-  {
-    id: "thala",
-    name: "Thala",
-    defiLlamaId: "parent#thala-labs",
-    links: { website: "https://www.thala.fi/" },
-  },
+
   {
     id: "tensor",
     name: "Tensor",
@@ -158,12 +141,6 @@ const platforms: PlatformRaw[] = [
     defiLlamaId: "serum",
     isDeprecated: true,
     links: { website: "https://projectserum.com/" },
-  },
-  {
-    id: "aave",
-    name: "AAVE",
-    defiLlamaId: "parent#aave",
-    links: { website: "https://aave.com/" },
   },
   {
     id: "drift",
@@ -199,51 +176,6 @@ const platforms: PlatformRaw[] = [
     links: { website: "https://yield.fan/dashboard" },
   },
   {
-    id: "seaswap",
-    name: "Seaswap",
-    defiLlamaId: "seaswap",
-    links: { website: "https://seaswap.io/" },
-  },
-  {
-    id: "astroport",
-    name: "Astroport",
-    defiLlamaId: "astroport",
-    links: {
-      website: "https://astroport.fi",
-      twitter: "https://twitter.com/astroport_fi",
-    },
-  },
-  {
-    id: "pancakeswap",
-    name: "PancakeSwap",
-    defiLlamaId: "parent#pancakeswap",
-    links: { website: "https://pancakeswap.finance/" },
-  },
-  {
-    id: "aftermath",
-    name: "Aftermath",
-    defiLlamaId: "parent#aftermath-finance",
-    links: { website: "https://aftermath.finance/" },
-  },
-  {
-    id: "liquidswap",
-    name: "Liquidswap",
-    defiLlamaId: "liquidswap",
-    links: { website: "https://liquidswap.com" },
-  },
-  {
-    id: "auxexchange",
-    name: "Aux Exchange",
-    defiLlamaId: "aux-exchange",
-    links: { website: "https://aux.exchange/" },
-  },
-  {
-    id: "maker",
-    name: "Maker DAO",
-    defiLlamaId: "makerdao",
-    links: { website: "https://makerdao.com/" },
-  },
-  {
     id: "kamino",
     name: "Kamino",
     description: "Borrow, Earn and Leverage on Solana",
@@ -255,75 +187,6 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Kamino-Finance",
       documentation: "https://docs.kamino.finance/",
     },
-  },
-  {
-    id: "bucket",
-    name: "Bucket",
-    defiLlamaId: "bucket-protocol",
-    links: { website: "https://bucketprotocol.io/" },
-  },
-  {
-    id: "navi",
-    name: "NAVI",
-    defiLlamaId: "parent#navi-protocol",
-    links: {
-      website: "https://www.naviprotocol.io/",
-      twitter: "https://twitter.com/navi_protocol",
-    },
-  },
-  {
-    id: "scallop",
-    name: "Scallop",
-    defiLlamaId: "parent#scallop",
-    links: { website: "https://app.scallop.io/" },
-  },
-  {
-    id: "rocketpool",
-    name: "Rocket Pool",
-    defiLlamaId: "rocket-pool",
-    links: { website: "https://rocketpool.net/" },
-  },
-  {
-    id: "lido",
-    name: "Lido",
-    defiLlamaId: "lido",
-    links: { website: "https://lido.fi/" },
-  },
-  {
-    id: "curve",
-    name: "Curve Finance",
-    defiLlamaId: "parent#curve-finance",
-    links: { website: "https://curve.fi/" },
-  },
-  {
-    id: "compound",
-    name: "Compound",
-    defiLlamaId: "parent#compound-finance",
-    links: { website: "https://compound.finance/" },
-  },
-  {
-    id: "stargate",
-    name: "Stargate",
-    defiLlamaId: "stargate-v1",
-    links: { website: "https://stargate.finance/" },
-  },
-  {
-    id: "stader",
-    name: "Stader",
-    defiLlamaId: "stader",
-    links: { website: "https://staderlabs.com/" },
-  },
-  {
-    id: "uniswap",
-    name: "Uniswap",
-    defiLlamaId: "parent#uniswap",
-    links: { website: "https://uniswap.org/" },
-  },
-  {
-    id: "balancer",
-    name: "Balancer",
-    defiLlamaId: "parent#balancer",
-    links: { website: "https://balancer.fi/" },
   },
   {
     id: "paraswap",
@@ -446,27 +309,7 @@ const platforms: PlatformRaw[] = [
       documentation: "https://docs.zeta.markets/",
     },
   },
-  {
-    id: "venus",
-    name: "Venus",
-    defiLlamaId: "venus-core-pool",
-    links: { website: "https://app.venus.io/" },
-  },
-  {
-    id: "sushiswap",
-    name: "Sushiswap",
-    defiLlamaId: "sushiswap",
-    links: {
-      website: "https://www.sushi.com/",
-      twitter: "https://twitter.com/SushiSwap",
-    },
-  },
-  {
-    id: "yearn",
-    name: "Yearn",
-    defiLlamaId: "yearn-finance",
-    links: { website: "https://yearn.fi/" },
-  },
+
   {
     id: "atrix",
     name: "Atrix",
@@ -541,15 +384,6 @@ const platforms: PlatformRaw[] = [
     },
   },
   {
-    id: "instadapp",
-    name: "Instadapp",
-    defiLlamaId: "instadapp",
-    links: {
-      website: "https://instadapp.io/",
-      twitter: "https://twitter.com/instadapp",
-    },
-  },
-  {
     id: "streamflow",
     name: "Streamflow",
     description:
@@ -562,15 +396,6 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/streamflow-finance",
       medium: "https://streamflow.medium.com/",
       documentation: "https://docs.streamflow.finance/en/",
-    },
-  },
-  {
-    id: "benqi",
-    name: "Benqi",
-    defiLlamaId: "benqi-lending",
-    links: {
-      website: "https://benqi.fi/",
-      twitter: "https://twitter.com/BenqiFinance",
     },
   },
   {
@@ -692,15 +517,6 @@ const platforms: PlatformRaw[] = [
       twitter: "https://x.com/vectis_finance",
       medium: "https://medium.com/@vectisfinance",
       documentation: "https://docs.vectis.finance/",
-    },
-  },
-  {
-    id: "aries",
-    name: "Aries",
-    defiLlamaId: "aries-markets",
-    links: {
-      website: "https://app.ariesmarkets.xyz/",
-      twitter: "https://twitter.com/AriesMarkets",
     },
   },
   {
@@ -866,15 +682,6 @@ const platforms: PlatformRaw[] = [
     id: "akuma",
     name: "Akuma",
     links: { website: "https://staking.theakuma.xyz" },
-  },
-  {
-    id: "abex",
-    name: "ABEx Finance",
-    defiLlamaId: "abex-finance",
-    links: {
-      website: "https://abex.fi/",
-      twitter: "https://twitter.com/ABExFinance",
-    },
   },
   {
     id: "symmetry",
@@ -1066,51 +873,6 @@ const platforms: PlatformRaw[] = [
     },
   },
   {
-    id: "kriya",
-    name: "Kriya",
-    defiLlamaId: "parent#kriyadex",
-    links: {
-      website: "https://www.app.kriya.finance/",
-      twitter: "https://twitter.com/KriyaDEX",
-    },
-  },
-  {
-    id: "haedal",
-    name: "Haedal",
-    defiLlamaId: "haedal-protocol",
-    links: {
-      website: "https://haedal.xyz/stake",
-      twitter: "https://twitter.com/HaedalProtocol",
-    },
-  },
-  {
-    id: "flowx",
-    name: "FlowX Finance",
-    defiLlamaId: "flowx-v2",
-    links: {
-      website: "https://flowx.finance",
-      twitter: "https://twitter.com/FlowX_finance",
-    },
-  },
-  {
-    id: "typus",
-    name: "Typus",
-    defiLlamaId: "parent#typus-finance",
-    links: {
-      website: "https://typus.finance/",
-      twitter: "https://twitter.com/TypusFinance",
-    },
-  },
-  {
-    id: "mole",
-    name: "Mole",
-    defiLlamaId: "mole",
-    links: {
-      website: "https://app.mole.fi/",
-      twitter: "https://twitter.com/moledefi",
-    },
-  },
-  {
     id: "bonfida",
     name: "Bonfida (SNS)",
     description: "Web3 Identity for Everyone",
@@ -1174,14 +936,6 @@ const platforms: PlatformRaw[] = [
     },
   },
   {
-    id: "elixir",
-    name: "Elixir",
-    links: {
-      website: "https://agg.elixir.xyz/",
-      twitter: "https://x.com/elixir",
-    },
-  },
-  {
     id: "moonwalk",
     name: "Moonwalk",
     description: "Gamify your Fitness Journey",
@@ -1191,15 +945,6 @@ const platforms: PlatformRaw[] = [
       telegram: "https://t.me/+x0hEQqQP1GpjZGZh",
       twitter: "https://twitter.com/moonwalkfitness",
       documentation: "https://moonwalk.fit/faq",
-    },
-  },
-  {
-    id: "bluefin",
-    name: "Bluefin",
-    defiLlamaId: "parent#bluefin",
-    links: {
-      website: "https://trade.bluefin.io/",
-      twitter: "https://x.com/bluefinapp",
     },
   },
   {
@@ -1415,24 +1160,6 @@ const platforms: PlatformRaw[] = [
     },
   },
   {
-    id: "joule",
-    name: "Joule",
-    defiLlamaId: "joule-finance",
-    links: {
-      website: "https://app.joule.finance/",
-      twitter: "https://twitter.com/JouleFinance",
-    },
-  },
-  {
-    id: "meso",
-    name: "Meso",
-    defiLlamaId: "meso-finance",
-    links: {
-      website: "https://app.meso.finance/",
-      twitter: "https://x.com/Meso_Finance",
-    },
-  },
-  {
     id: "loopscale",
     name: "Loopscale",
     description:
@@ -1475,7 +1202,7 @@ const platforms: PlatformRaw[] = [
     id: "hxro",
     name: "Hxro",
     description:
-      "Hxro Network protocols power a diverse set of community–built derivatives trading and betting applications on Solana. The network aims to create the most liquid markets for Solana-based assets while enabling its ecosystem to participate in the value it accrues.",
+      "Hxro Network protocols power a diverse set of community-built derivatives trading and betting applications on Solana. The network aims to create the most liquid markets for Solana-based assets while enabling its ecosystem to participate in the value it accrues.",
     defiLlamaId: "hxro-network",
     links: {
       website: "https://app.hxro.finance/",
@@ -1586,7 +1313,7 @@ const platforms: PlatformRaw[] = [
     id: "defiland",
     name: "Defiland",
     description:
-      " multi-chain agriculture-simulation game created to gamify Decentralized Finance",
+      "Multi-chain agriculture-simulation game created to gamify Decentralized Finance",
     links: {
       website: "https://staking.defiland.app/",
       discord: "https://discord.gg/defiland",
@@ -1642,7 +1369,7 @@ const platforms: PlatformRaw[] = [
     id: "exponent",
     name: "Exponent",
     description:
-      "Building Solana’s DeFi yield exchange — Choose between fixed or leveraged yields.",
+      "Building Solana's DeFi yield exchange — Choose between fixed or leveraged yields.",
     defiLlamaId: "exponent",
     links: {
       website: "https://www.exponent.finance",
@@ -1766,38 +1493,6 @@ const platforms: PlatformRaw[] = [
     links: {
       website: "https://www.guanocoin.com/",
       twitter: "https://x.com/guanocoin",
-    },
-  },
-  {
-    id: "tortuga",
-    name: "Tortuga",
-    defiLlamaId: "tortuga",
-    links: { website: "https://app.tortuga.finance/" },
-  },
-  {
-    id: "ditto",
-    name: "Ditto",
-    defiLlamaId: "ditto",
-    links: { website: "https://stake.dittofinance.io/" },
-  },
-  {
-    id: "binancestakedeth",
-    name: "Binance staked ETH",
-    defiLlamaId: "binance-staked-eth",
-    links: { website: "https://www.binance.com/en/wbeth" },
-  },
-  {
-    id: "stusdt",
-    name: "stUSDT",
-    defiLlamaId: "stusdt",
-    links: { website: "https://stusdt.io/#/home" },
-  },
-  {
-    id: "coinbasestakedeth",
-    name: "Coinbase Staked ETH",
-    defiLlamaId: "coinbase-wrapped-staked-eth",
-    links: {
-      website: "https://www.coinbase.com/price/coinbase-wrapped-staked-eth",
     },
   },
   {
