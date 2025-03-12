@@ -46,9 +46,10 @@ jobs:
 
       # Step 8: Create a GitHub release (optional)
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
+          files: dist/platforms.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
