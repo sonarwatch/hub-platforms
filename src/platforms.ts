@@ -2,8 +2,8 @@ import { PlatformRaw } from "./types";
 
 const platforms: PlatformRaw[] = [
   {
-    id: "",
-    name: "",
+    id: "foo",
+    name: "foo platform",
     links: {
       website: "",
     },
