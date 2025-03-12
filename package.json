@@ -1,7 +1,6 @@
 {
   "name": "@sonarwatch/hub-platforms",
   "version": "1.0.0",
-  "description": "TypeScript library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
