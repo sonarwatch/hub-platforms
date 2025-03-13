@@ -5,6 +5,7 @@ export type Platform = {
   description?: string;
   defiLlamaId?: string;
   isDeprecated: boolean;
+  tokens?: string[];
   links: {
     website: string;
     discord?: string;

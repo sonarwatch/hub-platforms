@@ -1,4 +1,5 @@
 import { PlatformRaw } from "./types";
+
 const platforms: PlatformRaw[] = [
   {
     id: "switchboard",
@@ -28,6 +29,10 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/marinade-finance",
       documentation: "https://docs.marinade.finance/",
     },
+    tokens: [
+      "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
+      "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
+    ],
   },
   {
     id: "marginfi",
@@ -42,6 +47,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/mrgnlabs/",
       documentation: "https://docs.marginfi.com/",
     },
+    tokens: ["LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp"],
   },
   {
     id: "saber",
@@ -63,12 +69,12 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/solendprotocol",
       documentation: "https://docs.save.finance/",
     },
+    tokens: [
+      "SLNDpmoWTVADgEdndyvWzroNL7zSi1dF9PC3xHGtPwp",
+      "SAVEaeeqeXNKYb4Lyx28DkUms5gyZ76vGa6fCfdzWfK",
+    ],
   },
-  {
-    id: "dumpy",
-    name: "Dumpy",
-    links: { website: "https://dumpy.fun/" },
-  },
+  { id: "dumpy", name: "Dumpy", links: { website: "https://dumpy.fun/" } },
   {
     id: "raydium",
     name: "Raydium",
@@ -82,6 +88,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/raydium-io",
       documentation: "https://docs.raydium.io/raydium/",
     },
+    tokens: ["4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"],
   },
   {
     id: "orca",
@@ -97,6 +104,7 @@ const platforms: PlatformRaw[] = [
       medium: "https://orca-so.medium.com/",
       documentation: "https://docs.orca.so/",
     },
+    tokens: ["orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"],
   },
   {
     id: "orca-staking",
@@ -116,7 +124,6 @@ const platforms: PlatformRaw[] = [
       documentation: "https://docs.meteora.ag/",
     },
   },
-
   {
     id: "tensor",
     name: "Tensor",
@@ -128,6 +135,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/tensor-hq",
       documentation: "https://docs.tensor.trade/",
     },
+    tokens: ["TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6"],
   },
   {
     id: "openbook",
@@ -155,6 +163,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/drift-labs",
       documentation: "https://docs.drift.trade/",
     },
+    tokens: ["DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7"],
   },
   {
     id: "mango",
@@ -168,6 +177,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/mangomarkets",
       github: "https://discord.gg/pcSkP3yJMUs",
     },
+    tokens: ["MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"],
   },
   {
     id: "yieldfan",
@@ -187,6 +197,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Kamino-Finance",
       documentation: "https://docs.kamino.finance/",
     },
+    tokens: ["KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS"],
   },
   {
     id: "paraswap",
@@ -262,6 +273,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://x.com/FluxBeamDEX",
       documentation: "https://docs.fluxbeam.xyz/",
     },
+    tokens: ["FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX"],
   },
   {
     id: "jupiter-launchpad",
@@ -280,6 +292,7 @@ const platforms: PlatformRaw[] = [
       website: "https://vote.jup.ag/",
       twitter: "https://x.com/jup_dao",
     },
+    tokens: ["JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"],
   },
   {
     id: "jupiter-exchange",
@@ -294,6 +307,10 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/jup-ag",
       documentation: "https://station.jup.ag/",
     },
+    tokens: [
+      "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
+      "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
+    ],
   },
   {
     id: "zeta",
@@ -308,8 +325,8 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/zetamarkets",
       documentation: "https://docs.zeta.markets/",
     },
+    tokens: ["ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo"],
   },
-
   {
     id: "atrix",
     name: "Atrix",
@@ -342,6 +359,7 @@ const platforms: PlatformRaw[] = [
       telegram: "https://www.t.me/goosefx",
       twitter: "https://x.com/GooseFX1",
     },
+    tokens: ["GFX1ZjR2P15tmrSwow6FjyDYcEkoFb4p4gJCpLBjaxHD"],
   },
   {
     id: "rain",
@@ -372,6 +390,10 @@ const platforms: PlatformRaw[] = [
       medium: "https://medium.com/@lifinity.io",
       documentation: "https://docs.lifinity.io/",
     },
+    tokens: [
+      "LFNTYraetVioAPnGJht4yNg2aUZFXR776cMeN9VMjXp",
+      "xLfNTYy76B8Tiix3hA51Jyvc1kMSFV4sPdR7szTZsRu",
+    ],
   },
   {
     id: "port",
@@ -382,6 +404,7 @@ const platforms: PlatformRaw[] = [
       website: "https://mainnet.port.finance/lending",
       github: "https://github.com/port-finance",
     },
+    tokens: ["PoRTjZMPXb9T7dyU7tpLEZRQj7e6ssfAE62j2oQuc6y"],
   },
   {
     id: "streamflow",
@@ -397,6 +420,7 @@ const platforms: PlatformRaw[] = [
       medium: "https://streamflow.medium.com/",
       documentation: "https://docs.streamflow.finance/en/",
     },
+    tokens: ["STREAMribRwybYpMmSYoCsQUdr6MZNXEqHgm7p1gu9M"],
   },
   {
     id: "parcl",
@@ -411,6 +435,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/ParclFinance",
       documentation: "https://docs.parcl.co/",
     },
+    tokens: ["4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs"],
   },
   {
     id: "pyth",
@@ -425,6 +450,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/pyth-network",
       documentation: "https://docs.pyth.network/home",
     },
+    tokens: ["HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"],
   },
   {
     id: "circuit",
@@ -544,6 +570,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/bonk_inu",
       medium: "https://medium.com/@bonk_inu",
     },
+    tokens: ["DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"],
   },
   {
     id: "accessprotocol",
@@ -558,6 +585,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Access-Labs-Inc",
       documentation: "https://docs.accessprotocol.co/guide",
     },
+    tokens: ["5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y"],
   },
   {
     id: "bskt",
@@ -571,6 +599,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/bsktfi",
       documentation: "https://www.bskt.fi/bskt-whitepaper.pdf",
     },
+    tokens: ["6gnCPhXtLnUD76HjQuSYPENLSZdG8RvDB1pTLM5aLSJA"],
   },
   {
     id: "genesysgo",
@@ -584,6 +613,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/GenesysGo",
       documentation: "https://docs.shdwdrive.com/",
     },
+    tokens: ["SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y"],
   },
   {
     id: "aurory",
@@ -596,6 +626,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/AuroryProject",
       documentation: "https://docs.aurory.io/",
     },
+    tokens: ["AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP"],
   },
   {
     id: "flowmatic",
@@ -711,6 +742,10 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/staratlasmeta",
       documentation: "https://staratlas.com/newsroom/game-manuals",
     },
+    tokens: [
+      "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx",
+      "poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk",
+    ],
   },
   {
     id: "tulip",
@@ -727,6 +762,7 @@ const platforms: PlatformRaw[] = [
       medium: "https://medium.com/tulipprotocol",
       documentation: "https://tulip-protocol.gitbook.io/tulip-protocol",
     },
+    tokens: ["TuLipcqtGVXP9XR62wM8WWCm6a9vhLs7T1uoWBk6FDs"],
   },
   {
     id: "phoenix",
@@ -758,6 +794,10 @@ const platforms: PlatformRaw[] = [
       medium: "https://uxdprotocol.medium.com/",
       documentation: "https://docs.uxd.fi/uxdprotocol",
     },
+    tokens: [
+      "UXPhBoR3qG4UCiGNJfV7MqhHyFqKN68g45GoYvAeL2M",
+      "7kbnvuGBxxj8AG9qp8Scn56muWGaRaFqxg1FsRp3PaFT",
+    ],
   },
   {
     id: "wormhole",
@@ -772,6 +812,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/wormhole-foundation",
       documentation: "https://wormhole.com/docs/",
     },
+    tokens: ["85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"],
   },
   {
     id: "banx",
@@ -786,6 +827,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/frakt-solana",
       documentation: "https://docs.banx.gg/",
     },
+    tokens: ["BANXbTpN8U2cU41FjPxe2Ti37PiT5cCxLUKDQZuJeMMR"],
   },
   {
     id: "nosana",
@@ -814,6 +856,10 @@ const platforms: PlatformRaw[] = [
       medium: "https://medium.com/@Jito-Foundation",
       documentation: "https://www.jito.network/docs/jitosol/overview/",
     },
+    tokens: [
+      "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+      "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
+    ],
   },
   {
     id: "renzo",
@@ -829,6 +875,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Renzo-Protocol",
       documentation: "https://docs.renzoprotocol.com/docs/",
     },
+    tokens: ["ezSoL6fY1PVdJcJsUpe5CM3xkfmy3zoVCABybm5WtiC"],
   },
   {
     id: "kyros",
@@ -849,6 +896,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/magiceden",
       documentation: "https://community.magiceden.io/learn",
     },
+    tokens: ["MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"],
   },
   {
     id: "clone",
@@ -885,6 +933,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Bonfida",
       documentation: "https://docs.sns.id/collection",
     },
+    tokens: ["EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp"],
   },
   {
     id: "cropper",
@@ -894,6 +943,7 @@ const platforms: PlatformRaw[] = [
       website: "https://cropper.finance/",
       twitter: "https://twitter.com/CropperFinance",
     },
+    tokens: ["7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"],
   },
   {
     id: "hedgehog",
@@ -921,6 +971,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Whales-Market/",
       documentation: "https://docs.whales.market/",
     },
+    tokens: ["GTH3wG3NErjwcf7VGCoXEXkgXSHvYhx5gtATeeM5JAS1"],
   },
   {
     id: "futarchy",
@@ -934,6 +985,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/metaDAOproject",
       documentation: "https://docs.metadao.fi/",
     },
+    tokens: ["METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr"],
   },
   {
     id: "moonwalk",
@@ -972,6 +1024,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/SharkyFi",
       github: "https://github.com/SharkyFi",
     },
+    tokens: ["SHARKSYJjqaNyxVfrpnBN9pjgkhwDhatnMyicWPnr1s"],
   },
   {
     id: "sanctum",
@@ -986,6 +1039,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/igneous-labs",
       documentation: "https://learn.sanctum.so/docs",
     },
+    tokens: ["CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu"],
   },
   {
     id: "allbridge",
@@ -1009,6 +1063,7 @@ const platforms: PlatformRaw[] = [
       discord: "https://discord.com/invite/famousfoxes",
       twitter: "https://twitter.com/famousfoxfed",
     },
+    tokens: ["FoXyMu5xwXre7zEoSvzViRk3nGawHUp9kUh97y2NDhcq"],
   },
   {
     id: "nxfinance",
@@ -1035,6 +1090,12 @@ const platforms: PlatformRaw[] = [
       documentation:
         "https://docs.solayer.org/documentation/get-started/introduction",
     },
+    tokens: [
+      "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+      "sSo1wxKKr6zW2hqf5hZrp2CawLibcwi1pMBqk5bg2G4",
+      "sSo14endRuUbvQaJS3dq36Q829a3A6BEfoeeRGJywEh",
+      "susdabGDNbhrnCa6ncrYo81u4s9GM8ecK2UwMyZiq4X",
+    ],
   },
   {
     id: "picasso",
@@ -1050,6 +1111,7 @@ const platforms: PlatformRaw[] = [
       medium: "https://medium.com/@Picasso_Network",
       documentation: "https://docs.picasso.network/",
     },
+    tokens: ["966vsqwoS3ZBrHesTyAvE7esFV2kaHaDFLLXs4asPdLJ"],
   },
   {
     id: "quarry",
@@ -1072,6 +1134,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/SolanaVault",
       documentation: "https://docs.thevault.finance/",
     },
+    tokens: ["vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7"],
   },
   {
     id: "debridge",
@@ -1087,6 +1150,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/debridge-finance/",
       documentation: "https://docs.debridge.finance/",
     },
+    tokens: ["DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5"],
   },
   {
     id: "stabble",
@@ -1101,6 +1165,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/stabbleorg",
       documentation: "https://docs.stabble.org/",
     },
+    tokens: ["STBuyENwJ1GP4yNZCjwavn92wYLEY3t5S1kVS5kwyS1"],
   },
   {
     id: "francium",
@@ -1158,6 +1223,10 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/orgs/AdrenaFoundation",
       documentation: "https://docs.adrena.xyz/",
     },
+    tokens: [
+      "AuQaustGiaqxRvj2gtCdrd22PBzTn8kM3kEPEkZCtuDw",
+      "4yCLi5yWGzpTWMQ1iWHG5CrGYAdBkhyEdsuSugjDUqwj",
+    ],
   },
   {
     id: "loopscale",
@@ -1211,6 +1280,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/Hxro-Network",
       documentation: "https://docs.hxro.network/",
     },
+    tokens: ["HxhWkVpk5NS4Ltg5nij2G671CKXFRKPK8vy271Ub4uEK"],
   },
   {
     id: "spdr",
@@ -1224,6 +1294,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/itsmodsiw/spidy",
       documentation: "https://webpaper.spiderswap.io/whitepaper",
     },
+    tokens: ["AT79ReYU9XtHUTF5vM6Q4oa9K8w7918Fp5SU7G1MDMQY"],
   },
   {
     id: "grass",
@@ -1235,6 +1306,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/getgrass_io",
       documentation: "https://grass-foundation.gitbook.io/grass-docs",
     },
+    tokens: ["Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs"],
   },
   {
     id: "cyberfrogs",
@@ -1255,6 +1327,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/metaplex-foundation",
       documentation: "https://www.metaplex.com/guides",
     },
+    tokens: ["METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m"],
   },
   {
     id: "ensofi",
@@ -1294,6 +1367,7 @@ const platforms: PlatformRaw[] = [
       discord: "https://discord.com/invite/AsEMTAnJaS",
       twitter: "https://x.com/photofinishgame",
     },
+    tokens: ["GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG"],
   },
   {
     id: "pudgy",
@@ -1303,6 +1377,7 @@ const platforms: PlatformRaw[] = [
       discord: "https://discord.gg/pudgypenguins",
       twitter: "https://x.com/pudgypenguins",
     },
+    tokens: ["2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"],
   },
   {
     id: "gpool",
@@ -1321,6 +1396,7 @@ const platforms: PlatformRaw[] = [
       twitter: "https://x.com/DeFi_Land",
       documentation: "https://docs.defiland.app/",
     },
+    tokens: ["DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh"],
   },
   {
     id: "perena",
@@ -1350,6 +1426,11 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/fragmetric-labs",
       documentation: "https://docs.fragmetric.xyz/",
     },
+    tokens: [
+      "WFRGSWjaz8tbAxsJitmbfRuFV2mSNwy7BMWcCwaA28U",
+      "FRAGSEthVFL7fdqM8hxfxkfCZzUvmg21cqPJVvC1qdbo",
+      "FRAGJ157KSDfGvBJtCSrsTWUqFnZhrw4aC8N8LqHuoos",
+    ],
   },
   {
     id: "divvy",
@@ -1364,6 +1445,7 @@ const platforms: PlatformRaw[] = [
       documentation:
         "https://divvy.bet/wp-content/uploads/2022/12/Divvy_Knowledge_Hub_06.pdf",
     },
+    tokens: ["8fdi18UQNGg8mFEzjf79GUkzTg9YHSeojzCcarVxCX2y"],
   },
   {
     id: "exponent",
@@ -1430,6 +1512,10 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/mirrorworld-universe",
       documentation: "https://docs.sonic.game/",
     },
+    tokens: [
+      "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+      "sonickAJFiVLcYXx25X9vpF293udaWqDMUCiGtk7dg2",
+    ],
   },
   {
     id: "pluto",
@@ -1456,6 +1542,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/layer3xyz",
       documentation: "https://docs.layer3.xyz/",
     },
+    tokens: ["5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe"],
   },
   {
     id: "puffcoin",
@@ -1475,6 +1562,7 @@ const platforms: PlatformRaw[] = [
       github: "https://github.com/triadxyz",
       documentation: "https://docs.triadfi.co/",
     },
+    tokens: ["t3DohmswhKk94PPbPYwA6ZKACyY3y5kbcqeQerAJjmV"],
   },
   {
     id: "baskt",
@@ -1500,6 +1588,7 @@ const platforms: PlatformRaw[] = [
     name: "Blaze Staked SOL",
     defiLlamaId: "blazestake",
     links: { website: "https://stake.solblaze.org/" },
+    tokens: ["bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"],
   },
   {
     id: "frax",
@@ -1512,6 +1601,7 @@ const platforms: PlatformRaw[] = [
     name: "StakeWise Staked ETH",
     defiLlamaId: "stakewise",
     links: { website: "https://stakewise.io/" },
+    tokens: ["LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X"],
   },
   {
     id: "ondo-finance",
@@ -1527,6 +1617,7 @@ const platforms: PlatformRaw[] = [
       website: "https://deficarrot.com/",
       twitter: "https://x.com/DeFiCarrot",
     },
+    tokens: ["CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s"],
   },
   {
     id: "stepfinance",
@@ -1536,6 +1627,11 @@ const platforms: PlatformRaw[] = [
       website: "https://app.step.finance/",
       twitter: "https://twitter.com/StepFinance_",
     },
+    tokens: [
+      "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
+      "xStpgUCss9piqeFUk2iLVcvJEGhAdJxJQuwLkXP555G",
+      "StPsoHokZryePePFV8N7iXvfEmgUoJ87rivABX7gaW6",
+    ],
   },
   {
     id: "ligma",
