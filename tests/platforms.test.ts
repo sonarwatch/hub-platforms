@@ -1,5 +1,7 @@
-import { platforms } from "../src/index";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
 import { z } from "zod";
+import { platforms } from "../src/index";
 
 const PlatformSchema = z.object({
   id: z.string(),
@@ -42,5 +44,24 @@ describe("Platforms", () => {
     const ids = platforms.map((platform) => platform.id);
     const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
     expect(duplicates).toEqual([]);
+  });
+
+  // test that all platforms have a webp image in the img folder
+  it("should have webp images for all platforms", () => {
+    const imgDir = join(__dirname, "..", "img");
+    const missingImages = platforms
+      .map((platform) => ({
+        id: platform.id,
+        hasImage: existsSync(join(imgDir, `${platform.id}.webp`)),
+      }))
+      .filter((result) => !result.hasImage);
+
+    if (missingImages.length > 0) {
+      throw new Error(
+        `Missing webp images for platforms: ${missingImages
+          .map((p) => p.id)
+          .join(", ")}`,
+      );
+    }
   });
 });
