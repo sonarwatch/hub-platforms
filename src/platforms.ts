@@ -331,7 +331,13 @@ const platforms: PlatformRaw[] = [
     id: "atrix",
     name: "Atrix",
     defiLlamaId: "atrix",
-    links: { website: "https://app.atrix.finance/liquidity" },
+    links: {
+      website: "https://app.atrix.finance/liquidity",
+      discord: "https://discord.com/invite/nfyqSEzUsp",
+      twitter: "https://x.com/atrixprotocol",
+    },
+    description:
+      "A Serum-based AMM on Solana allowing for permissionless liquidity and farming.",
   },
   {
     id: "01",
@@ -625,6 +631,7 @@ const platforms: PlatformRaw[] = [
       discord: "https://discord.gg/aurory",
       twitter: "https://twitter.com/AuroryProject",
       documentation: "https://docs.aurory.io/",
+      github: "https://github.com/Aurory-Game",
     },
     tokens: ["AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP"],
   },
@@ -942,8 +949,14 @@ const platforms: PlatformRaw[] = [
     links: {
       website: "https://cropper.finance/",
       twitter: "https://twitter.com/CropperFinance",
+      telegram: "https://t.me/CropperFinance",
+      github: "https://github.com/CropperFinance",
+      medium: "https://cropperfinance.medium.com/",
+      documentation: "https://docs.cropper.finance/cropperfinance",
     },
     tokens: ["7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"],
+    description:
+      "Cropper is an decentralized exchange built on the Solana blockchain.",
   },
   {
     id: "hedgehog",
@@ -1053,6 +1066,8 @@ const platforms: PlatformRaw[] = [
       twitter: "https://twitter.com/Allbridge_io",
       github: "https://github.com/allbridge-io",
       documentation: "https://docs-core.allbridge.io/",
+      telegram: "https://t.me/allbridge_official",
+      medium: "https://allbridge.medium.com/",
     },
   },
   {
@@ -1314,7 +1329,9 @@ const platforms: PlatformRaw[] = [
     links: {
       website: "https://legacy.cyberfrogs.io/faction-contracts-v3",
       twitter: "https://twitter.com/CyberFrogsNFT",
+      discord: "https://discord.com/invite/cyberfrogs",
     },
+    description: "Leading NFT Development, Innovation & Crypto Trading Tools",
   },
   {
     id: "metaplex",
@@ -1600,7 +1617,10 @@ const platforms: PlatformRaw[] = [
     id: "stakewise",
     name: "StakeWise Staked ETH",
     defiLlamaId: "stakewise",
-    links: { website: "https://stakewise.io/" },
+    links: {
+      website: "https://stakewise.io/",
+      github: "https://github.com/laine-sa",
+    },
     tokens: ["LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X"],
   },
   {
@@ -1626,6 +1646,7 @@ const platforms: PlatformRaw[] = [
     links: {
       website: "https://app.step.finance/",
       twitter: "https://twitter.com/StepFinance_",
+      github: "https://github.com/step-finance",
     },
     tokens: [
       "StepAscQoEioFxxWGnh2sLBDFp9d8rvKz2Yp39iDpyT",
