@@ -27,7 +27,7 @@ let indexData = 'import { PlatformRaw } from "../types";\r\r';
 
 indexData += files
   .map((platformId) => {
-    return `import * as ${kebabToCamel(platformId)} from './${platformId}';`;
+    return `import * as ${kebabToCamel(platformId)} from "./${platformId}";`;
   }) // Generate export statements
   .join("\r");
 
