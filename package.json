@@ -16,6 +16,7 @@
     "prebuild": "ts-node scripts/generate-imports.ts",
     "build:lib": "tsc",
     "build:json": "ts-node scripts/generate-json.ts",
+    "pretest": "ts-node scripts/generate-imports.ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "prettier --check .",

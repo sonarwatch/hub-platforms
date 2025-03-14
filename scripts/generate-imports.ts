@@ -18,14 +18,14 @@ function kebabToCamel(str: string) {
 const targetDir = path.resolve(__dirname, "../src/platforms"); // Change to your directory
 const indexFile = path.join(targetDir, "index.ts");
 
-const files2 = fs
+const files = fs
   .readdirSync(targetDir)
   .filter((file) => file.endsWith(".ts") && file !== "index.ts")
   .map((file) => file.slice(0, -3)); // Remove .ts and convert to PascalCase
 
 let indexData = 'import { PlatformRaw } from "../types";\r\r';
 
-indexData += files2
+indexData += files
   .map((platformId) => {
     return `import * as ${kebabToCamel(platformId)} from './${platformId}';`;
   }) // Generate export statements
@@ -33,13 +33,11 @@ indexData += files2
 
 indexData += "\r\r";
 indexData += "export const platforms: PlatformRaw[] = [\r";
-indexData += files2
+indexData += files
   .map((platformId) => `  ${kebabToCamel(platformId)}.platform,`)
   .join("\r");
 indexData += "\r];\r";
 
 fs.writeFileSync(indexFile, indexData);
 
-console.log(
-  `✅ Generated index.ts with imports for ${indexData.length} files.`,
-);
+console.log(`✅ Generated index.ts with imports for ${files.length} files.`);
