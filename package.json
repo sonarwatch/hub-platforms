@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:json",
+    "prebuild": "ts-node scripts/generate-imports.ts",
     "build:lib": "tsc",
     "build:json": "ts-node scripts/generate-json.ts",
     "test": "jest",

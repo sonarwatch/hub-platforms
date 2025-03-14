@@ -1,4 +1,4 @@
-import platformsRaw from "./platforms";
+import { platforms as platformsRaw } from "./platforms/index";
 import { Platform } from "./types";
 
 export * from "./utils";
