@@ -1,4 +1,4 @@
-import { existsSync } from "node:fs";
+import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { z } from "zod";
 import { platforms } from "../src/index";
@@ -62,6 +62,18 @@ describe("Platforms", () => {
           .map((p) => p.id)
           .join(", ")}`,
       );
+    }
+  });
+
+  // verify that the img folder has no extra images
+  it("should not have extra images in the img folder", () => {
+    const imgDir = join(__dirname, "..", "img");
+    const extraImages = readdirSync(imgDir).filter(
+      (file) => !platforms.some((p) => file === `${p.id}.webp`),
+    );
+
+    if (extraImages.length > 0) {
+      throw new Error(`Extra images in the img folder: ${extraImages}`);
     }
   });
 });
