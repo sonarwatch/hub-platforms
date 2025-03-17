@@ -1,6 +1,7 @@
 import { platforms as platformsRaw } from "./platforms/index";
 import { Platform } from "./types";
 
+export { Platform } from "./types";
 export * from "./utils";
 
 const platforms: Platform[] = platformsRaw.map(
