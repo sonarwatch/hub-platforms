@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://www.guanocoin.com/",
     twitter: "https://x.com/guanocoin",
   },
+  tags: ["memecoin"],
 };

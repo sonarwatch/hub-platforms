@@ -10,4 +10,5 @@ export const platform: PlatformRaw = {
     documentation: "https://grass-foundation.gitbook.io/grass-docs",
   },
   tokens: ["Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs"],
+  tags: ["tool"],
 };

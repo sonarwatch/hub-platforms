@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/lulo-labs",
     documentation: "https://docs.lulo.fi/",
   },
+  tags: ["dapp"],
 };

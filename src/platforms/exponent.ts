@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/exponent-finance",
     documentation: "https://docs.exponent.finance/",
   },
+  tags: ["dapp"],
 };

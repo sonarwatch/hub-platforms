@@ -16,4 +16,5 @@ export const platform: PlatformRaw = {
     "MNDEFzGvMt87ueuHvVU9VcTqsAP5b3fTGPsHuuPA5ey",
     "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
   ],
+  tags: ["lst"],
 };

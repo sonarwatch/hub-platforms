@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     website: "https://m1-capital.com/",
     twitter: "https://x.com/M1Capital_",
   },
+  tags: ["tool"],
 };

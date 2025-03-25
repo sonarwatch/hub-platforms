@@ -10,4 +10,5 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/KnightradeTeam",
     documentation: "https://doc.knightrade.io/",
   },
+  tags: ["dapp"],
 };

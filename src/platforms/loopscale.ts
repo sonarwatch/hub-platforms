@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/bridgesplit",
     documentation: "https://docs.loopscale.com/",
   },
+  tags: ["dapp"],
 };

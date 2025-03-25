@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://www.openbook.ag/",
   },
+  tags: ["dapp"],
 };

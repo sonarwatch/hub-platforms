@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.defiland.app/",
   },
   tokens: ["DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh"],
+  tags: ["gaming"],
 };

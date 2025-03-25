@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/MeteoraAg",
     documentation: "https://docs.meteora.ag/",
   },
+  tags: ["dapp"],
 };

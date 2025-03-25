@@ -14,4 +14,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.orca.so/",
   },
   tokens: ["orcaEKTdK7LKz57vaAYr9QeNsVEPfiu6QeMU1kektZE"],
+  tags: ["dapp"],
 };

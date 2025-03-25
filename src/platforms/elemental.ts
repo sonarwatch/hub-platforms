@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/elementalfund",
     documentation: "https://docs.elemental.fund/",
   },
+  tags: ["dapp"],
 };

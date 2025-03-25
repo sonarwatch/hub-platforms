@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     medium: "https://neutraltrade.medium.com/",
     documentation: "https://docs.neutral.trade/",
   },
+  tags: ["dapp"],
 };

@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.shdwdrive.com/",
   },
   tokens: ["SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y"],
+  tags: ["tool"],
 };

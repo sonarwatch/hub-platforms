@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://ore.supply/",
     twitter: "https://twitter.com/OreSupply",
   },
+  tags: ["dapp"],
 };

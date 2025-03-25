@@ -14,4 +14,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Francium-DeFi",
     medium: "https://francium-defi.medium.com/",
   },
+  tags: ["dapp"],
 };

@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/famousfoxfed",
   },
   tokens: ["FoXyMu5xwXre7zEoSvzViRk3nGawHUp9kUh97y2NDhcq"],
+  tags: ["nft-collection"],
 };

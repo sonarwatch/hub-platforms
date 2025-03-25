@@ -10,4 +10,5 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/moonwalkfitness",
     documentation: "https://moonwalk.fit/faq",
   },
+  tags: ["gaming"],
 };

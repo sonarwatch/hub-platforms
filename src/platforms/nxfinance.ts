@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/nxfinance",
     twitter: "https://twitter.com/NX_Finance",
   },
+  tags: ["dapp"],
 };

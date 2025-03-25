@@ -16,4 +16,5 @@ export const platform: PlatformRaw = {
     "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
     "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
   ],
+  tags: ["dapp"],
 };

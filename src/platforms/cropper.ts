@@ -14,4 +14,5 @@ export const platform: PlatformRaw = {
   tokens: ["7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"],
   description:
     "Cropper is an decentralized exchange built on the Solana blockchain.",
+  tags: ["dapp"],
 };

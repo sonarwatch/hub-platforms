@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://stake.ligmanode.com/",
     twitter: "https://twitter.com/ligmanode",
   },
+  tags: ["tool"],
 };

@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/DeFiCarrot",
   },
   tokens: ["CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s"],
+  tags: ["stablecoin"],
 };

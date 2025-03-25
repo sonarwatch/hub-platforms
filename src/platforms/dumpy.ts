@@ -5,4 +5,5 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://dumpy.fun/",
   },
+  tags: ["dapp", "memecoin"],
 };

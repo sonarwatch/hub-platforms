@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/iLoop_HQ",
     documentation: "https://iloop-1.gitbook.io/docs.iloop.finance",
   },
+  tags: ["dapp"],
 };

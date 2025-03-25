@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Ensofi-xyz",
     documentation: "https://ensofi.gitbook.io/ensofi",
   },
+  tags: ["dapp"],
 };

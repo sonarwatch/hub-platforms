@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/HawkFi_",
     documentation: "https://hawkfi.gitbook.io/whitepaper",
   },
+  tags: ["dapp"],
 };

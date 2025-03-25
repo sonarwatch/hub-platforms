@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.marginfi.com/",
   },
   tokens: ["LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp"],
+  tags: ["dapp"],
 };

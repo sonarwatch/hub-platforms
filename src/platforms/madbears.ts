@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://staking.madbears.club/",
     twitter: "https://twitter.com/madbearsclub",
   },
+  tags: ["nft-collection"],
 };

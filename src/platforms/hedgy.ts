@@ -9,4 +9,5 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/HedgyMarket",
     documentation: "https://docs.hedgy.market/",
   },
+  tags: ["dapp"],
 };

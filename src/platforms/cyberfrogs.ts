@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/cyberfrogs",
   },
   description: "Leading NFT Development, Innovation & Crypto Trading Tools",
+  tags: ["nft-collection"],
 };

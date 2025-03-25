@@ -7,4 +7,5 @@ export const platform: PlatformRaw = {
     website: "https://www.doubleup.fun/",
     twitter: "https://x.com/doubleup_app",
   },
+  tags: ["gaming"],
 };

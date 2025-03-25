@@ -7,4 +7,5 @@ export const platform: PlatformRaw = {
     twitter: "https://twitter.com/CircuitTrading_",
     documentation: "https://docs.circuit.trade/",
   },
+  tags: ["dapp"],
 };

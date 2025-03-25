@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://gary.club/lock_gary",
     twitter: "https://twitter.com/GaryCoinOnSol",
   },
+  tags: ["memecoin"],
 };

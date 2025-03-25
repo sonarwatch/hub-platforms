@@ -5,8 +5,8 @@ export const platform: PlatformRaw = {
   description:
     "Economic modeling for crypto. Research, optimization, and risk management for DEX, Lending, Perpetuals, (Re)staking, Stablecoins, and Ecosystems",
   links: {
-    website:
-      "https://app.drift.trade/vaults/CoHd9JpwfcA76XQGA4AYfnjvAtWKoBQ6eWBkFzR1A2ui",
+    website: "https://www.gauntlet.xyz/",
     twitter: "https://twitter.com/gauntlet_xyz",
   },
+  tags: ["tool"],
 };

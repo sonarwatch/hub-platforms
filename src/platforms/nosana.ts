@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/nosana-ci",
     documentation: "https://docs.nosana.com/",
   },
+  tags: ["tool"],
 };

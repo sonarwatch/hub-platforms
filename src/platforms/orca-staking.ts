@@ -5,4 +5,5 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://v1.orca.so/staking",
   },
+  tags: ["nft-collection"],
 };

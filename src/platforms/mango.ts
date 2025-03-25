@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     github: "https://discord.gg/pcSkP3yJMUs",
   },
   tokens: ["MangoCzJ36AjZyKwVj3VnYU4GTonjfVEnJmvvWaxLac"],
+  tags: ["dapp"],
 };

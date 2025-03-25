@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Hedgehog-Markets",
     medium: "https://hedgehogmarkets.substack.com/",
   },
+  tags: ["dapp"],
 };

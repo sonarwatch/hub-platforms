@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://staking.geckocoin.xyz/",
     twitter: "https://twitter.com/GeckCoin",
   },
+  tags: ["dapp"],
 };

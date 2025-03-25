@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
       "https://divvy.bet/wp-content/uploads/2022/12/Divvy_Knowledge_Hub_06.pdf",
   },
   tokens: ["8fdi18UQNGg8mFEzjf79GUkzTg9YHSeojzCcarVxCX2y"],
+  tags: ["gaming"],
 };

@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/GooseFX1",
   },
   tokens: ["GFX1ZjR2P15tmrSwow6FjyDYcEkoFb4p4gJCpLBjaxHD"],
+  tags: ["dapp"],
 };

@@ -7,4 +7,5 @@ export const platform: PlatformRaw = {
     website: "https://lfg.jup.ag/",
     twitter: "https://twitter.com/JupiterExchange",
   },
+  tags: ["tool"],
 };

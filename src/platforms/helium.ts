@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://heliumvote.com/",
     twitter: "https://twitter.com/helium",
   },
+  tags: ["tool"],
 };

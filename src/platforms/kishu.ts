@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://staking.kishuthedog.com/",
     twitter: "https://twitter.com/kishuthedog",
   },
+  tags: ["memecoin"],
 };

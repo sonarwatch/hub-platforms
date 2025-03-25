@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.kamino.finance/",
   },
   tokens: ["KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS"],
+  tags: ["dapp"],
 };

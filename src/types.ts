@@ -23,11 +23,11 @@ export type PlatformTag =
   | "tool"
   | "cex"
   | "nft-collection"
+  | "lst"
   | "gaming"
   | "dao"
   | "memecoin"
-  | "stablecoin"
-  | "wallet";
+  | "stablecoin";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 
