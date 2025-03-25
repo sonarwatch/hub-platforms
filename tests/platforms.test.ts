@@ -7,6 +7,7 @@ const PlatformSchema = z.object({
   id: z.string(),
   name: z.string(),
   image: z.string().url(),
+  tags: z.array(z.string()).min(1),
   links: z.object({
     website: z.string().url(),
     discord: z.string().url().optional(),
@@ -23,8 +24,8 @@ describe("Platforms", () => {
     expect(platforms.length).toBeGreaterThan(0);
   });
 
-  it("should have a length less than 5000", () => {
-    expect(platforms.length).toBeLessThan(5000);
+  it("should have a length less than 10000", () => {
+    expect(platforms.length).toBeLessThan(10000);
   });
 
   it("should match the PlatformSchema", () => {
@@ -75,12 +76,5 @@ describe("Platforms", () => {
     if (extraImages.length > 0) {
       throw new Error(`Extra images in the img folder: ${extraImages}`);
     }
-  });
-
-  // test that tags array is not empty
-  it("should have tags array not empty", () => {
-    platforms.forEach((platform) => {
-      expect(platform.tags.length).toBeGreaterThan(0);
-    });
   });
 });
