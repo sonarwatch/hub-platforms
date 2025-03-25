@@ -12,5 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.metadao.fi/",
   },
   tokens: ["METADDFL6wWMWEoKTFJwcThTbUmtarRJZjRpzUvkxhr"],
-  tags: ["dapp"],
+  tags: ["dapp", "dao"],
 };

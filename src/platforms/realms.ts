@@ -11,5 +11,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Mythic-Project",
     documentation: "https://docs.realms.today/",
   },
-  tags: ["dao"],
+  tags: ["dao", "tool"],
 };
