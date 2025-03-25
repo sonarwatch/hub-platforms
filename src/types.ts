@@ -25,6 +25,7 @@ export type PlatformTag =
   | "nft-collection"
   | "lst"
   | "gaming"
+  | "bridge"
   | "dao"
   | "memecoin"
   | "stablecoin";
