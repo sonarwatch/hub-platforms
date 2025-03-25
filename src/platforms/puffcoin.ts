@@ -5,4 +5,5 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://staking.puffcoin.fun/",
   },
+  tags: ["memecoin"],
 };

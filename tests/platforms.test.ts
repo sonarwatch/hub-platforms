@@ -76,4 +76,11 @@ describe("Platforms", () => {
       throw new Error(`Extra images in the img folder: ${extraImages}`);
     }
   });
+
+  // test that tags array is not empty
+  it("should have tags array not empty", () => {
+    platforms.forEach((platform) => {
+      expect(platform.tags.length).toBeGreaterThan(0);
+    });
+  });
 });

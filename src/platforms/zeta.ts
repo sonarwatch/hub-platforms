@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.zeta.markets/",
   },
   tokens: ["ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo"],
+  tags: ["dapp"],
 };

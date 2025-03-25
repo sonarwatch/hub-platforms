@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.thevault.finance/",
   },
   tokens: ["vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7"],
+  tags: ["dapp"],
 };

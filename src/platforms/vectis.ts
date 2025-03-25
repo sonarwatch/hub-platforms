@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@vectisfinance",
     documentation: "https://docs.vectis.finance/",
   },
+  tags: ["dapp"],
 };

@@ -6,6 +6,7 @@ export type Platform = {
   defiLlamaId?: string;
   isDeprecated: boolean;
   tokens?: string[];
+  tags: PlatformTag[];
   links: {
     website: string;
     discord?: string;
@@ -16,6 +17,17 @@ export type Platform = {
     documentation?: string;
   };
 };
+
+export type PlatformTag =
+  | "dapp"
+  | "tool"
+  | "cex"
+  | "nft-collection"
+  | "gaming"
+  | "dao"
+  | "memecoin"
+  | "stablecoin"
+  | "wallet";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 

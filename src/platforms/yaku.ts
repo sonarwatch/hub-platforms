@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://staking.yaku.gg/",
     twitter: "https://twitter.com/YakuCorp",
   },
+  tags: ["gaming"],
 };

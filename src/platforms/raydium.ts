@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.raydium.io/raydium/",
   },
   tokens: ["4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R"],
+  tags: ["dapp"],
 };

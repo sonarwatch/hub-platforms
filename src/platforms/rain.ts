@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@rainfi_",
     documentation: "https://docs.rain.fi/",
   },
+  tags: ["dapp"],
 };

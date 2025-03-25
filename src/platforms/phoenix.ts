@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     documentation:
       "https://ellipsis-labs.gitbook.io/phoenix-dex/tRIkEFlLUzWK9uKO3W2V",
   },
+  tags: ["dapp"],
 };

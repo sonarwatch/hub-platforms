@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@Vaultka",
     documentation: "https://docs.vaultka.com/",
   },
+  tags: ["dapp"],
 };

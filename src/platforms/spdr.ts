@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://webpaper.spiderswap.io/whitepaper",
   },
   tokens: ["AT79ReYU9XtHUTF5vM6Q4oa9K8w7918Fp5SU7G1MDMQY"],
+  tags: ["dapp"],
 };

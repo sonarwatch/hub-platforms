@@ -7,4 +7,5 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://projectserum.com/",
   },
+  tags: ["dapp"],
 };

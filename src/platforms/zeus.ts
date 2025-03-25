@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
   },
   tokens: ["ZEUS1aR7aX8DFFJf5QjWj2ftDDdNTroMNGo8YoQm3Gq"],
   description: "First Multichain Layer on Solana.",
+  tags: ["dapp"],
 };

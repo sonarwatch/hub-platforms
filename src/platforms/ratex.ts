@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/RateX-Protocol",
     documentation: "https://docs.rate-x.io/ratex",
   },
+  tags: ["dapp"],
 };

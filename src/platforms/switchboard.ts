@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     medium: "https://switchboardxyz.medium.com/",
     documentation: "https://docs.switchboard.xyz/",
   },
+  tags: ["tool"],
 };

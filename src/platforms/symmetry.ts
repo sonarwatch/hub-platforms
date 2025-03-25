@@ -13,4 +13,5 @@ export const platform: PlatformRaw = {
     medium: "https://symmetry-fi.medium.com/",
     documentation: "https://docs.symmetry.fi/",
   },
+  tags: ["dapp"],
 };

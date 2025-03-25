@@ -9,4 +9,5 @@ export const platform: PlatformRaw = {
     medium:
       "https://medium.com/@lifinity.io/introducing-sandglass-a-yield-trading-protocol-on-solana-9b5ee5b33aff",
   },
+  tags: ["dapp"],
 };

@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     website: "https://app.quarry.so/",
     github: "https://github.com/QuarryProtocol",
   },
+  tags: ["dapp"],
 };

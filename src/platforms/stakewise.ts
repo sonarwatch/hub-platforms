@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/laine-sa",
   },
   tokens: ["LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X"],
+  tags: ["tool"],
 };
