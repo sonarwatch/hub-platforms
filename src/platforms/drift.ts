@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Drift brings on-chain, cross-margined perpetual futures to Solana. Making futures DEXs the best way to trade.",
   defiLlamaId: "parent#drift",
+  tags: ["dapp"],
   links: {
     website: "https://www.drift.trade/",
     discord: "https://discord.com/invite/fMcZBH8ErM",

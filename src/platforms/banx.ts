@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Borrow, Lend, Multiply, Hedge Solana tokens and NFTs with no expiration, no price liquidation.",
   defiLlamaId: "banx",
+  tags: ["dapp"],
   links: {
     website: "https://banx.gg/",
     discord: "https://discord.com/invite/banxfromfrakt",

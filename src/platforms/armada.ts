@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "No code token staking setup on solana. Professionally managed and non custodial token liquidity strategies.",
   defiLlamaId: "armada-staking",
+  tags: ["dapp"],
   isDeprecated: true,
   links: {
     website: "https://armada-alliance.com/",

@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "BSKT",
   description:
     "Baskets of assets in a portfolio, bridging liquidity cross-chain.",
+  tags: ["dapp"],
   links: {
     website: "https://claim.bskt.fi/",
     discord: "https://discord.gg/VdSdWqpqQ6",

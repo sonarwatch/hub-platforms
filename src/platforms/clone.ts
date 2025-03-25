@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Clone",
   defiLlamaId: "clone-protocol",
   isDeprecated: true,
+  tags: ["tool"],
   links: {
     website: "https://clone.so/",
     twitter: "https://twitter.com/CloneProtocol",

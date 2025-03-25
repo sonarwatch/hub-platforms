@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Star Atlas",
   description:
     "A grand strategy game of space exploration, territorial conquest, political domination, and more.",
+  tags: ["gaming"],
   links: {
     website: "https://staratlas.com/",
     discord: "https://discord.com/invite/StarAtlas",

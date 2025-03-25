@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Access is a content and service monetization protocol offering incentivized subscriptions by staking the native ACS token.",
   defiLlamaId: "access-protocol",
+  tags: ["dapp"],
   links: {
     website: "https://hub.accessprotocol.co",
     discord: "https://discord.com/invite/access-protocol-1001837380044587118",

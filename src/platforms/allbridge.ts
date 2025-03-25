@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Allbridge",
   description:
     "Allbridge is a cross-chain bridge that enables seamless asset transfers between different blockchains.",
+  tags: ["tool"],
   defiLlamaId: "allbridge-core",
   links: {
     website: "https://core.allbridge.io/pools",

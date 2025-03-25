@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description: "The Efficient Solana Yield Aggregator",
   defiLlamaId: "tulip-protocol",
   isDeprecated: true,
+  tags: ["dapp"],
   links: {
     website: "https://tulip.garden/",
     discord: "https://discord.gg/tulipgarden",

@@ -3,6 +3,7 @@ export const platform: PlatformRaw = {
   id: "tensor",
   name: "Tensor",
   description: "Solana's Leading NFT Marketplace",
+  tags: ["tool"],
   links: {
     website: "https://www.tensor.trade/",
     discord: "https://discord.gg/tensor",

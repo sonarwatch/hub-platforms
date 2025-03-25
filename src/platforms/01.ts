@@ -6,6 +6,7 @@ export const platform: PlatformRaw = {
     "01 Exchange is a next-gen trading experience with the speed of centralized exchanges and the integrity of decentralized finance, powered by Nord Engine.",
   defiLlamaId: "01",
   isDeprecated: true,
+  tags: ["dapp"],
   links: {
     website: "https://01-prod-git-main-monkeylanding.vercel.app/",
     discord: "https://discord.gg/JZwrrgMhGT",

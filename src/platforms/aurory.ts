@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Aurory",
   description:
     "Seekers of Tokane by Aurory, is a free-to-play, immersive JRPG built by a team of +60 gaming industry veterans.",
+  tags: ["nft-collection", "gaming"],
   links: {
     website: "https://app.aurory.io",
     discord: "https://discord.gg/aurory",

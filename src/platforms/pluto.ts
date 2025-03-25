@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Pluto",
   description: "Leveraged Yield Machine on Solana",
   defiLlamaId: "pluto",
+  tags: ["dapp"],
   links: {
     website: "https://pluto.so/",
     discord: "https://discord.com/invite/plutoleverage",

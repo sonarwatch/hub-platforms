@@ -3,6 +3,7 @@ export const platform: PlatformRaw = {
   id: "atrix",
   name: "Atrix",
   defiLlamaId: "atrix",
+  tags: ["dapp"],
   links: {
     website: "https://app.atrix.finance/liquidity",
     discord: "https://discord.com/invite/nfyqSEzUsp",

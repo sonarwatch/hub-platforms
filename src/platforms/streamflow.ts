@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Streamflow exponentially grows on-chain economies by providing infrastructure for creation, distribution, and incentive alignment of tokens.",
   defiLlamaId: "streamflow",
+  tags: ["tool"],
   links: {
     website: "https://app.streamflow.finance/",
     discord: "https://discord.com/invite/streamflow-851921970169511976",

@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Adrena is a decentralized protocol for borrowing and lending on Solana.",
   defiLlamaId: "adrena-protocol",
+  tags: ["dapp"],
   links: {
     website: "https://app.adrena.xyz/",
     discord: "https://discord.gg/adrena",

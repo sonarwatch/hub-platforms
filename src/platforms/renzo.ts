@@ -5,6 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Renzo is a restaking protocol that abstracts and manages AVS strategies for Liquid Restaking Tokens (LRTs), making Ethereum and Solana restaking ezpz and accessible to everyone.",
   defiLlamaId: "renzo",
+  tags: ["lst"],
   links: {
     website: "https://app.renzoprotocol.com/discover",
     discord: "https://discord.gg/renzoprotocol",

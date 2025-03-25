@@ -4,6 +4,7 @@ export const platform: PlatformRaw = {
   name: "Triad",
   description:
     "Prediction markets on Solana. Trade politics, crypto, sports & culture.",
+  tags: ["dapp"],
   links: {
     website: "https://app.triadfi.co/",
     discord: "http://discord.gg/triadfi",
