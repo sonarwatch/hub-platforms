@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import { EOL } from "os";
 
 function isFirstCharNumber(str: string) {
   return /^\d/.test(str); // Checks if the first character is a digit (0-9)
@@ -23,20 +24,20 @@ const files = fs
   .filter((file) => file.endsWith(".ts") && file !== "index.ts")
   .map((file) => file.slice(0, -3)); // Remove .ts and convert to PascalCase
 
-let indexData = 'import { PlatformRaw } from "../types";\r\r';
+let indexData = `import { PlatformRaw } from "../types";${EOL}${EOL}`;
 
 indexData += files
   .map((platformId) => {
     return `import * as ${kebabToCamel(platformId)} from "./${platformId}";`;
   }) // Generate export statements
-  .join("\r");
+  .join(EOL);
 
-indexData += "\r\r";
-indexData += "export const platforms: PlatformRaw[] = [\r";
+indexData += `${EOL}${EOL}`;
+indexData += `export const platforms: PlatformRaw[] = [${EOL}`;
 indexData += files
   .map((platformId) => `  ${kebabToCamel(platformId)}.platform,`)
-  .join("\r");
-indexData += "\r];\r";
+  .join(EOL);
+indexData += `${EOL}];${EOL}`;
 
 fs.writeFileSync(indexFile, indexData);
 
