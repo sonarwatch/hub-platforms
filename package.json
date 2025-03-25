@@ -11,8 +11,8 @@
     }
   },
   "files": [
-    "dist/*.js",
-    "dist/*.ts"
+    "dist/**/*.js",
+    "dist/**/*.d.ts"
   ],
   "publishConfig": {
     "access": "public"
