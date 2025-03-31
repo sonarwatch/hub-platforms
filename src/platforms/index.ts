@@ -100,6 +100,7 @@ import * as port from "./port";
 import * as pudgy from "./pudgy";
 import * as puffcoin from "./puffcoin";
 import * as pumpswap from "./pumpswap";
+import * as pumpkin from "./pumpkin";
 import * as pyth from "./pyth";
 import * as quarry from "./quarry";
 import * as rain from "./rain";
@@ -239,6 +240,7 @@ export const platforms: PlatformRaw[] = [
   pudgy.platform,
   puffcoin.platform,
   pumpswap.platform,
+  pumpkin.platform,
   pyth.platform,
   quarry.platform,
   rain.platform,
