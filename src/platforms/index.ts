@@ -138,6 +138,7 @@ import * as yieldfan from "./yieldfan";
 import * as zelo from "./zelo";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
+import * as nirvana from "./nirvana";
 
 export const platforms: PlatformRaw[] = [
   _01.platform,
@@ -222,6 +223,7 @@ export const platforms: PlatformRaw[] = [
   moonwalk.platform,
   moose.platform,
   neutral.platform,
+  nirvana.platform,
   nosana.platform,
   nxfinance.platform,
   ondoFinance.platform,
