@@ -82,6 +82,7 @@ import * as meteora from "./meteora";
 import * as moonwalk from "./moonwalk";
 import * as moose from "./moose";
 import * as neutral from "./neutral";
+import * as nirvana from "./nirvana";
 import * as nosana from "./nosana";
 import * as nxfinance from "./nxfinance";
 import * as ondoFinance from "./ondo-finance";
@@ -138,7 +139,6 @@ import * as yieldfan from "./yieldfan";
 import * as zelo from "./zelo";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
-import * as nirvana from "./nirvana";
 
 export const platforms: PlatformRaw[] = [
   _01.platform,
