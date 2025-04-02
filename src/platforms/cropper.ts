@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     medium: "https://cropperfinance.medium.com/",
     documentation: "https://docs.cropper.finance/cropperfinance",
   },
-  tokens: ["7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr"],
+  tokens: ["DubwWZNWiNGMMeeQHPnMATNj77YZPZSAz2WVR5WjLJqz"],
   description:
     "Cropper is an decentralized exchange built on the Solana blockchain.",
   tags: ["dapp"],
