@@ -1,7 +1,7 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "bonfida",
-  name: "Bonfida (SNS)",
+  id: "sns",
+  name: "SNS",
   description: "Web3 Identity for Everyone",
   defiLlamaId: "solana-name-service",
   tags: ["tool"],
@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     website: "https://www.sns.id/",
     discord: "https://discord.com/invite/bonfida-778660171265474572",
     telegram: "https://t.me/snsdotsol",
-    twitter: "https://twitter.com/bonfida",
+    twitter: "https://twitter.com/sns",
     github: "https://github.com/Bonfida",
     documentation: "https://docs.sns.id/collection",
   },
