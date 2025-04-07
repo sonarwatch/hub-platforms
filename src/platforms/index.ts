@@ -115,6 +115,7 @@ import * as sandglass from "./sandglass";
 import * as save from "./save";
 import * as serum from "./serum";
 import * as sharky from "./sharky";
+import * as solanaid from "./solanaid";
 import * as solayer from "./solayer";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
@@ -257,6 +258,7 @@ export const platforms: PlatformRaw[] = [
   save.platform,
   serum.platform,
   sharky.platform,
+  solanaid.platform,
   solayer.platform,
   sonic.platform,
   spdr.platform,
