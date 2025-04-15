@@ -144,6 +144,7 @@ import * as yieldfan from "./yieldfan";
 import * as zelo from "./zelo";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
+import * as zeustest from "./zeustest";
 
 export const platforms: PlatformRaw[] = [
   _01.platform,
@@ -288,4 +289,5 @@ export const platforms: PlatformRaw[] = [
   zelo.platform,
   zeta.platform,
   zeus.platform,
+  zeustest.platform,
 ];
