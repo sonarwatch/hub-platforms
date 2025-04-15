@@ -24,7 +24,8 @@ const files = fs
   .filter((file) => file.endsWith(".ts") && file !== "index.ts")
   .map((file) => file.slice(0, -3)); // Remove .ts and convert to PascalCase
 
-let indexData = `import { PlatformRaw } from "../types";${EOL}${EOL}`;
+let indexData = `// ⚠️ This file is auto-generated. Do not modify it manually.${EOL}${EOL}`;
+indexData += `import { PlatformRaw } from "../types";${EOL}${EOL}`;
 
 indexData += files
   .map((platformId) => {
