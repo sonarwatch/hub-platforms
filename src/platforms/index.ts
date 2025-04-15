@@ -1,3 +1,5 @@
+// ⚠️ This file is auto-generated. Do not modify it manually.
+
 import { PlatformRaw } from "../types";
 
 import * as _01 from "./01";
