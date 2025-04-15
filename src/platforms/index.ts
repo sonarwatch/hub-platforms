@@ -61,6 +61,7 @@ import * as iloop from "./iloop";
 import * as jito from "./jito";
 import * as jupiterExchange from "./jupiter-exchange";
 import * as jupiterGovernance from "./jupiter-governance";
+import * as jupiterJupuary from "./jupiter-jupuary";
 import * as jupiterLaunchpad from "./jupiter-launchpad";
 import * as kamino from "./kamino";
 import * as kishu from "./kishu";
@@ -109,6 +110,7 @@ import * as ratex from "./ratex";
 import * as raydium from "./raydium";
 import * as realms from "./realms";
 import * as renzo from "./renzo";
+import * as runemine from "./runemine";
 import * as saber from "./saber";
 import * as sanctum from "./sanctum";
 import * as sandglass from "./sandglass";
@@ -140,7 +142,6 @@ import * as yieldfan from "./yieldfan";
 import * as zelo from "./zelo";
 import * as zeta from "./zeta";
 import * as zeus from "./zeus";
-import * as runemine from "./runemine";
 
 export const platforms: PlatformRaw[] = [
   _01.platform,
@@ -204,6 +205,7 @@ export const platforms: PlatformRaw[] = [
   jito.platform,
   jupiterExchange.platform,
   jupiterGovernance.platform,
+  jupiterJupuary.platform,
   jupiterLaunchpad.platform,
   kamino.platform,
   kishu.platform,
@@ -252,6 +254,7 @@ export const platforms: PlatformRaw[] = [
   raydium.platform,
   realms.platform,
   renzo.platform,
+  runemine.platform,
   saber.platform,
   sanctum.platform,
   sandglass.platform,
@@ -283,5 +286,4 @@ export const platforms: PlatformRaw[] = [
   zelo.platform,
   zeta.platform,
   zeus.platform,
-  runemine.platform,
 ];
