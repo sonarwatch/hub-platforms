@@ -18,12 +18,14 @@
     "access": "public"
   },
   "scripts": {
-    "prebuild": "ts-node scripts/generate-imports.ts",
+    "prebuild": "npm run build:index",
     "build": "npm run build:lib",
     "build:ci": "npm run build:lib && npm run build:json",
     "build:lib": "tsc",
     "build:json": "ts-node scripts/generate-json.ts",
-    "pretest": "ts-node scripts/generate-imports.ts",
+    "build:index": "ts-node scripts/generate-imports.ts",
+    "commit:index": "npm run build:index && git add ./src/platforms/index.ts && git commit -m 'chore: generate updates'",
+    "pretest": "npm run build:index",
     "test": "jest",
     "test:ci": "jest",
     "test:watch": "jest --watch",
