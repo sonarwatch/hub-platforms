@@ -43,5 +43,5 @@ npm version patch
 git push origin main --tags
 
 # or
-npm version patch && git push origin main --tags
+npm run commit:index && npm version patch && git push origin main --tags
 ```
