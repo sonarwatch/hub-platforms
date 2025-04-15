@@ -27,7 +27,7 @@
     "test:watch": "jest --watch",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "preversion": "npm run lint && npm run test && npm run build && npm run lint"
+    "preversion": "npm run lint && npm run test && npm run build && npm run lint && git add . && git commit -m \"chore: pre-version build\""
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
