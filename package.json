@@ -18,16 +18,18 @@
     "access": "public"
   },
   "scripts": {
-    "build": "npm run build:lib && npm run build:json",
     "prebuild": "ts-node scripts/generate-imports.ts",
+    "build": "npm run build:lib",
+    "build:ci": "npm run build:lib && npm run build:json",
     "build:lib": "tsc",
     "build:json": "ts-node scripts/generate-json.ts",
     "pretest": "ts-node scripts/generate-imports.ts",
     "test": "jest",
+    "test:ci": "jest",
     "test:watch": "jest --watch",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "preversion": "npm run lint && npm run test && npm run build && npm run lint && git add . && git commit -m \"chore: pre-version build\""
+    "preversion": "npm run test:ci && npm run build:ci && npm run lint"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
