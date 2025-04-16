@@ -1,12 +1,12 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "carrot",
-  name: "Carrot",
-  defiLlamaId: "carrot",
+  id: "texture",
+  name: "Texture",
+  description: "P2P Loans",
   links: {
-    website: "https://deficarrot.com/",
-    twitter: "https://x.com/DeFiCarrot",
+    website: "https://texture.finance/",
+    twitter: "https://twitter.com/texture_fi",
+    discord: "https://discord.gg/6YvjpXzsqp",
   },
-  tokens: ["CRTx1JouZhzSU6XytsE42UQraoGqiHgxabocVfARTy2s"],
-  tags: ["stablecoin"],
+  tags: ["dapp"],
 };
