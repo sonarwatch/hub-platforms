@@ -131,6 +131,7 @@ import * as streamflow from "./streamflow";
 import * as switchboard from "./switchboard";
 import * as symmetry from "./symmetry";
 import * as tensor from "./tensor";
+import * as texture from "./texture";
 import * as thevault from "./thevault";
 import * as triad from "./triad";
 import * as tulip from "./tulip";
@@ -275,6 +276,7 @@ export const platforms: PlatformRaw[] = [
   switchboard.platform,
   symmetry.platform,
   tensor.platform,
+  texture.platform,
   thevault.platform,
   triad.platform,
   tulip.platform,
