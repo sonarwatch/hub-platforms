@@ -59,6 +59,7 @@ import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
 import * as helium from "./helium";
 import * as hxro from "./hxro";
+import * as hylo from "./hylo";
 import * as iloop from "./iloop";
 import * as jito from "./jito";
 import * as jupiterExchange from "./jupiter-exchange";
@@ -204,6 +205,7 @@ export const platforms: PlatformRaw[] = [
   hedgy.platform,
   helium.platform,
   hxro.platform,
+  hylo.platform,
   iloop.platform,
   jito.platform,
   jupiterExchange.platform,
