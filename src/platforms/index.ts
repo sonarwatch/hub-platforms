@@ -59,6 +59,7 @@ import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
 import * as helium from "./helium";
 import * as hxro from "./hxro";
+import * as hylo from "./hylo";
 import * as iloop from "./iloop";
 import * as jito from "./jito";
 import * as jupiterExchange from "./jupiter-exchange";
@@ -131,6 +132,7 @@ import * as streamflow from "./streamflow";
 import * as switchboard from "./switchboard";
 import * as symmetry from "./symmetry";
 import * as tensor from "./tensor";
+import * as texture from "./texture";
 import * as thevault from "./thevault";
 import * as triad from "./triad";
 import * as tulip from "./tulip";
@@ -203,6 +205,7 @@ export const platforms: PlatformRaw[] = [
   hedgy.platform,
   helium.platform,
   hxro.platform,
+  hylo.platform,
   iloop.platform,
   jito.platform,
   jupiterExchange.platform,
@@ -275,6 +278,7 @@ export const platforms: PlatformRaw[] = [
   switchboard.platform,
   symmetry.platform,
   tensor.platform,
+  texture.platform,
   thevault.platform,
   triad.platform,
   tulip.platform,

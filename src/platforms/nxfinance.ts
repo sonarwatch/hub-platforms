@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "NX Finance",
   defiLlamaId: "nx-finance",
   links: {
-    website: "https://nxfinance.io/",
+    website: "https://www.nxfinance.info/",
     discord: "https://discord.com/invite/nxfinance",
     twitter: "https://twitter.com/NX_Finance",
   },
