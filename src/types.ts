@@ -28,7 +28,8 @@ export type PlatformTag =
   | "bridge"
   | "dao"
   | "memecoin"
-  | "stablecoin";
+  | "stablecoin"
+  | "desci";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 
