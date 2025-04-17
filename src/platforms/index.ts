@@ -94,6 +94,7 @@ import * as openbook from "./openbook";
 import * as orcaStaking from "./orca-staking";
 import * as orca from "./orca";
 import * as ore from "./ore";
+import * as oresupply from "./oresupply";
 import * as paraswap from "./paraswap";
 import * as parcl from "./parcl";
 import * as perena from "./perena";
@@ -240,6 +241,7 @@ export const platforms: PlatformRaw[] = [
   orcaStaking.platform,
   orca.platform,
   ore.platform,
+  oresupply.platform,
   paraswap.platform,
   parcl.platform,
   perena.platform,
