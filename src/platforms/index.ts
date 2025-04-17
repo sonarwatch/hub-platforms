@@ -14,6 +14,7 @@ import * as atrix from "./atrix";
 import * as aurory from "./aurory";
 import * as banx from "./banx";
 import * as baskt from "./baskt";
+import * as bio from "./bio";
 import * as blaze from "./blaze";
 import * as bonfida from "./bonfida";
 import * as bonkrewards from "./bonkrewards";
@@ -58,6 +59,7 @@ import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
 import * as helium from "./helium";
+import * as huma from "./huma";
 import * as hxro from "./hxro";
 import * as hylo from "./hylo";
 import * as iloop from "./iloop";
@@ -161,6 +163,7 @@ export const platforms: PlatformRaw[] = [
   aurory.platform,
   banx.platform,
   baskt.platform,
+  bio.platform,
   blaze.platform,
   bonfida.platform,
   bonkrewards.platform,
@@ -205,6 +208,7 @@ export const platforms: PlatformRaw[] = [
   hedgehog.platform,
   hedgy.platform,
   helium.platform,
+  huma.platform,
   hxro.platform,
   hylo.platform,
   iloop.platform,
