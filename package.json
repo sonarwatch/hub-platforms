@@ -31,7 +31,7 @@
     "test:watch": "jest --watch",
     "lint": "prettier --check .",
     "format": "prettier --write .",
-    "preversion": "npm run build:index && npm run test:ci && npm run build:ci && npm run format && (npm run commit:index || true)"
+    "preversion": "npm run build:index && npm run test:ci && npm run build:ci && npm run lint && (npm run commit:index || true)"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
