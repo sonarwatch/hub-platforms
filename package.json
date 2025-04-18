@@ -24,7 +24,7 @@
     "build:lib": "tsc",
     "build:json": "ts-node scripts/generate-json.ts",
     "build:index": "ts-node scripts/generate-imports.ts",
-    "commit:index": "npm run build:index && git add ./src/platforms/index.ts && git commit -m 'chore: generate updates'",
+    "commit:index": "npm run build:index && git add ./src/platforms/index.ts && git commit -m \"chore: generate updates\"",
     "pretest": "npm run build:index",
     "test": "jest",
     "test:ci": "jest",
