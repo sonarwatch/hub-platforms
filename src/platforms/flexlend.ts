@@ -1,7 +1,7 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "flexlend",
-  name: "LuLo",
+  name: "Lulo",
   description:
     "Lulo is a decentralized lending aggregator, which automatically optimizes users deposits by migrating their deposits to the lending pool with the best yield, while allowing for personalized risk settings",
   defiLlamaId: "lulo",
