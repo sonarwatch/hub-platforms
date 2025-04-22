@@ -31,6 +31,7 @@ import * as cyberfrogs from "./cyberfrogs";
 import * as debridge from "./debridge";
 import * as defiland from "./defiland";
 import * as defituna from "./defituna";
+import * as dflow from "./dflow";
 import * as divvy from "./divvy";
 import * as doubleup from "./doubleup";
 import * as drift from "./drift";
@@ -184,6 +185,7 @@ export const platforms: PlatformRaw[] = [
   debridge.platform,
   defiland.platform,
   defituna.platform,
+  dflow.platform,
   divvy.platform,
   doubleup.platform,
   drift.platform,
