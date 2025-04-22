@@ -21,6 +21,7 @@ import * as bonkrewards from "./bonkrewards";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
 import * as carrot from "./carrot";
+import * as circle from "./circle";
 import * as circuit from "./circuit";
 import * as citrus from "./citrus";
 import * as clone from "./clone";
@@ -91,10 +92,12 @@ import * as neutral from "./neutral";
 import * as nirvana from "./nirvana";
 import * as nosana from "./nosana";
 import * as nxfinance from "./nxfinance";
+import * as okx from "./okx";
 import * as ondoFinance from "./ondo-finance";
 import * as openbook from "./openbook";
 import * as orcaStaking from "./orca-staking";
 import * as orca from "./orca";
+import * as orderly from "./orderly";
 import * as ore from "./ore";
 import * as oresupply from "./oresupply";
 import * as paraswap from "./paraswap";
@@ -123,6 +126,7 @@ import * as sandglass from "./sandglass";
 import * as save from "./save";
 import * as serum from "./serum";
 import * as sharky from "./sharky";
+import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solayer from "./solayer";
 import * as sonic from "./sonic";
@@ -170,6 +174,7 @@ export const platforms: PlatformRaw[] = [
   brawl.platform,
   bskt.platform,
   carrot.platform,
+  circle.platform,
   circuit.platform,
   citrus.platform,
   clone.platform,
@@ -240,10 +245,12 @@ export const platforms: PlatformRaw[] = [
   nirvana.platform,
   nosana.platform,
   nxfinance.platform,
+  okx.platform,
   ondoFinance.platform,
   openbook.platform,
   orcaStaking.platform,
   orca.platform,
+  orderly.platform,
   ore.platform,
   oresupply.platform,
   paraswap.platform,
@@ -272,6 +279,7 @@ export const platforms: PlatformRaw[] = [
   save.platform,
   serum.platform,
   sharky.platform,
+  solana.platform,
   solanaid.platform,
   solayer.platform,
   sonic.platform,
