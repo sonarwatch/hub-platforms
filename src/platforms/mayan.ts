@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://mayan.finance/",
     twitter: "https://x.com/MayanFinance",
-    discord: "discord.gg/mayanfinance",
+    discord: "https://discord.gg/mayanfinance",
     documentation: "https://docs.mayan.finance/",
   },
   tags: ["bridge", "tool", "dapp"],
