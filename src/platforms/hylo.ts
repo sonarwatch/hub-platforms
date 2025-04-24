@@ -10,4 +10,9 @@ export const platform: PlatformRaw = {
     github: "https://github.com/hylo-so",
   },
   tags: ["dapp"],
+  tokens: [
+    "HnnGv3HrSqjRpgdFmx7vQGjntNEoex1SU4e9Lxcxuihz",
+    "5YMkXAYccHSGnHn9nob9xEvv6Pvka9DZWH7nTbotTu9E",
+    "4sWNB8zGWHkh6UnmwiEtzNxL4XrN7uK9tosbESbJFfVs",
+  ],
 };
