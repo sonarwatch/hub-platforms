@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://photon-sol.tinyastro.io/",
     twitter: "https://x.com/tradewithPhoton",
-    telegram: "t.me/photonlounge",
+    telegram: "https://t.me/photonlounge",
   },
   tags: ["dapp"],
 };
