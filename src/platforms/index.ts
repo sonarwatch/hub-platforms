@@ -137,6 +137,7 @@ import * as sharky from "./sharky";
 import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solayer from "./solayer";
+import * as solincinerator from "./solincinerator";
 import * as solsea from "./solsea";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
@@ -302,6 +303,7 @@ export const platforms: PlatformRaw[] = [
   solana.platform,
   solanaid.platform,
   solayer.platform,
+  solincinerator.platform,
   solsea.platform,
   sonic.platform,
   spdr.platform,
