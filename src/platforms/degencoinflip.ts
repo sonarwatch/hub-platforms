@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
   links: {
     website: "https://degencoinflip.com/",
     twitter: "https://x.com/degencoinflip",
-    discord: "discord.gg/degencoinflip",
+    discord: "https://discord.gg/degencoinflip",
   },
   tags: ["gaming"],
 };

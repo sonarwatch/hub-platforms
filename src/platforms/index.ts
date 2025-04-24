@@ -31,6 +31,7 @@ import * as cyberfrogs from "./cyberfrogs";
 import * as debridge from "./debridge";
 import * as defiland from "./defiland";
 import * as defituna from "./defituna";
+import * as degencoinflip from "./degencoinflip";
 import * as dflow from "./dflow";
 import * as divvy from "./divvy";
 import * as doubleup from "./doubleup";
@@ -40,6 +41,7 @@ import * as elemental from "./elemental";
 import * as ensofi from "./ensofi";
 import * as exponent from "./exponent";
 import * as famousfoxfederation from "./famousfoxfederation";
+import * as fjordfoundry from "./fjordfoundry";
 import * as flash from "./flash";
 import * as flexlend from "./flexlend";
 import * as flowmatic from "./flowmatic";
@@ -80,11 +82,13 @@ import * as ligma from "./ligma";
 import * as loopscale from "./loopscale";
 import * as m1capital from "./m1capital";
 import * as madbears from "./madbears";
+import * as madlads from "./madlads";
 import * as magiceden from "./magiceden";
 import * as mango from "./mango";
 import * as maple from "./maple";
 import * as marginfi from "./marginfi";
 import * as marinade from "./marinade";
+import * as mayan from "./mayan";
 import * as metaplex from "./metaplex";
 import * as meteora from "./meteora";
 import * as moonwalk from "./moonwalk";
@@ -104,8 +108,10 @@ import * as oresupply from "./oresupply";
 import * as paraswap from "./paraswap";
 import * as parcl from "./parcl";
 import * as perena from "./perena";
+import * as phantom from "./phantom";
 import * as phoenix from "./phoenix";
 import * as photofinish from "./photofinish";
+import * as photon from "./photon";
 import * as picasso from "./picasso";
 import * as pluto from "./pluto";
 import * as port from "./port";
@@ -125,11 +131,13 @@ import * as saber from "./saber";
 import * as sanctum from "./sanctum";
 import * as sandglass from "./sandglass";
 import * as save from "./save";
+import * as sentre from "./sentre";
 import * as serum from "./serum";
 import * as sharky from "./sharky";
 import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solayer from "./solayer";
+import * as solsea from "./solsea";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
 import * as stabble from "./stabble";
@@ -142,12 +150,15 @@ import * as symmetry from "./symmetry";
 import * as tensor from "./tensor";
 import * as texture from "./texture";
 import * as thevault from "./thevault";
+import * as titan from "./titan";
 import * as triad from "./triad";
 import * as tulip from "./tulip";
+import * as underdog from "./underdog";
 import * as uxd from "./uxd";
 import * as vaultka from "./vaultka";
 import * as vectis from "./vectis";
 import * as whalesmarket from "./whalesmarket";
+import * as wink from "./wink";
 import * as wormhole from "./wormhole";
 import * as yaku from "./yaku";
 import * as yieldfan from "./yieldfan";
@@ -185,6 +196,7 @@ export const platforms: PlatformRaw[] = [
   debridge.platform,
   defiland.platform,
   defituna.platform,
+  degencoinflip.platform,
   dflow.platform,
   divvy.platform,
   doubleup.platform,
@@ -194,6 +206,7 @@ export const platforms: PlatformRaw[] = [
   ensofi.platform,
   exponent.platform,
   famousfoxfederation.platform,
+  fjordfoundry.platform,
   flash.platform,
   flexlend.platform,
   flowmatic.platform,
@@ -234,11 +247,13 @@ export const platforms: PlatformRaw[] = [
   loopscale.platform,
   m1capital.platform,
   madbears.platform,
+  madlads.platform,
   magiceden.platform,
   mango.platform,
   maple.platform,
   marginfi.platform,
   marinade.platform,
+  mayan.platform,
   metaplex.platform,
   meteora.platform,
   moonwalk.platform,
@@ -258,8 +273,10 @@ export const platforms: PlatformRaw[] = [
   paraswap.platform,
   parcl.platform,
   perena.platform,
+  phantom.platform,
   phoenix.platform,
   photofinish.platform,
+  photon.platform,
   picasso.platform,
   pluto.platform,
   port.platform,
@@ -279,11 +296,13 @@ export const platforms: PlatformRaw[] = [
   sanctum.platform,
   sandglass.platform,
   save.platform,
+  sentre.platform,
   serum.platform,
   sharky.platform,
   solana.platform,
   solanaid.platform,
   solayer.platform,
+  solsea.platform,
   sonic.platform,
   spdr.platform,
   stabble.platform,
@@ -296,12 +315,15 @@ export const platforms: PlatformRaw[] = [
   tensor.platform,
   texture.platform,
   thevault.platform,
+  titan.platform,
   triad.platform,
   tulip.platform,
+  underdog.platform,
   uxd.platform,
   vaultka.platform,
   vectis.platform,
   whalesmarket.platform,
+  wink.platform,
   wormhole.platform,
   yaku.platform,
   yieldfan.platform,
