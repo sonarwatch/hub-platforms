@@ -76,6 +76,7 @@ import * as kamino from "./kamino";
 import * as kishu from "./kishu";
 import * as knightrade from "./knightrade";
 import * as kyros from "./kyros";
+import * as lavarage from "./lavarage";
 import * as layer3 from "./layer3";
 import * as lifinity from "./lifinity";
 import * as ligma from "./ligma";
@@ -242,6 +243,7 @@ export const platforms: PlatformRaw[] = [
   kishu.platform,
   knightrade.platform,
   kyros.platform,
+  lavarage.platform,
   layer3.platform,
   lifinity.platform,
   ligma.platform,
