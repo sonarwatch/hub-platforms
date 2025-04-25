@@ -63,6 +63,7 @@ import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
 import * as helium from "./helium";
+import * as honeyland from "./honeyland";
 import * as huma from "./huma";
 import * as hxro from "./hxro";
 import * as hylo from "./hylo";
@@ -230,6 +231,7 @@ export const platforms: PlatformRaw[] = [
   hedgehog.platform,
   hedgy.platform,
   helium.platform,
+  honeyland.platform,
   huma.platform,
   hxro.platform,
   hylo.platform,
