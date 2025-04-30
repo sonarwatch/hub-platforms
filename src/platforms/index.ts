@@ -8,6 +8,7 @@ import * as adrastea from "./adrastea";
 import * as adrena from "./adrena";
 import * as akuma from "./akuma";
 import * as allbridge from "./allbridge";
+import * as alldomain from "./alldomain";
 import * as amulet from "./amulet";
 import * as armada from "./armada";
 import * as asgardfi from "./asgardfi";
@@ -185,6 +186,7 @@ export const platforms: PlatformRaw[] = [
   adrena.platform,
   akuma.platform,
   allbridge.platform,
+  alldomain.platform,
   amulet.platform,
   armada.platform,
   asgardfi.platform,
