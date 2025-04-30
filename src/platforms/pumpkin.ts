@@ -1,7 +1,7 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "pumpkin",
-  name: "PumpSwap",
+  name: "Pumpkin",
   description: "Token Launch Hub",
   tags: ["dapp"],
   links: {
