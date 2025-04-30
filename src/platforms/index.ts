@@ -8,15 +8,19 @@ import * as adrastea from "./adrastea";
 import * as adrena from "./adrena";
 import * as akuma from "./akuma";
 import * as allbridge from "./allbridge";
+import * as amulet from "./amulet";
 import * as armada from "./armada";
 import * as asgardfi from "./asgardfi";
 import * as atrix from "./atrix";
 import * as aurory from "./aurory";
+import * as bananagun from "./bananagun";
 import * as banx from "./banx";
 import * as baskt from "./baskt";
 import * as bio from "./bio";
 import * as blaze from "./blaze";
+import * as bloom from "./bloom";
 import * as bonfida from "./bonfida";
+import * as bonkbot from "./bonkbot";
 import * as bonkrewards from "./bonkrewards";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
@@ -27,6 +31,7 @@ import * as citrus from "./citrus";
 import * as clone from "./clone";
 import * as coinmarketcap from "./coinmarketcap";
 import * as cropper from "./cropper";
+import * as cudis from "./cudis";
 import * as cyberfrogs from "./cyberfrogs";
 import * as debridge from "./debridge";
 import * as defiland from "./defiland";
@@ -86,6 +91,7 @@ import * as loopscale from "./loopscale";
 import * as m1capital from "./m1capital";
 import * as madbears from "./madbears";
 import * as madlads from "./madlads";
+import * as maestro from "./maestro";
 import * as magiceden from "./magiceden";
 import * as mango from "./mango";
 import * as maple from "./maple";
@@ -94,6 +100,7 @@ import * as marinade from "./marinade";
 import * as mayan from "./mayan";
 import * as metaplex from "./metaplex";
 import * as meteora from "./meteora";
+import * as mintech from "./mintech";
 import * as moonwalk from "./moonwalk";
 import * as moose from "./moose";
 import * as neutral from "./neutral";
@@ -120,6 +127,7 @@ import * as pluto from "./pluto";
 import * as port from "./port";
 import * as pudgy from "./pudgy";
 import * as puffcoin from "./puffcoin";
+import * as pumpfun from "./pumpfun";
 import * as pumpkin from "./pumpkin";
 import * as pumpswap from "./pumpswap";
 import * as pyth from "./pyth";
@@ -177,15 +185,19 @@ export const platforms: PlatformRaw[] = [
   adrena.platform,
   akuma.platform,
   allbridge.platform,
+  amulet.platform,
   armada.platform,
   asgardfi.platform,
   atrix.platform,
   aurory.platform,
+  bananagun.platform,
   banx.platform,
   baskt.platform,
   bio.platform,
   blaze.platform,
+  bloom.platform,
   bonfida.platform,
+  bonkbot.platform,
   bonkrewards.platform,
   brawl.platform,
   bskt.platform,
@@ -196,6 +208,7 @@ export const platforms: PlatformRaw[] = [
   clone.platform,
   coinmarketcap.platform,
   cropper.platform,
+  cudis.platform,
   cyberfrogs.platform,
   debridge.platform,
   defiland.platform,
@@ -255,6 +268,7 @@ export const platforms: PlatformRaw[] = [
   m1capital.platform,
   madbears.platform,
   madlads.platform,
+  maestro.platform,
   magiceden.platform,
   mango.platform,
   maple.platform,
@@ -263,6 +277,7 @@ export const platforms: PlatformRaw[] = [
   mayan.platform,
   metaplex.platform,
   meteora.platform,
+  mintech.platform,
   moonwalk.platform,
   moose.platform,
   neutral.platform,
@@ -289,6 +304,7 @@ export const platforms: PlatformRaw[] = [
   port.platform,
   pudgy.platform,
   puffcoin.platform,
+  pumpfun.platform,
   pumpkin.platform,
   pumpswap.platform,
   pyth.platform,
