@@ -14,6 +14,7 @@ import * as armada from "./armada";
 import * as asgardfi from "./asgardfi";
 import * as atrix from "./atrix";
 import * as aurory from "./aurory";
+import * as backwoods from "./backwoods";
 import * as bananagun from "./bananagun";
 import * as banx from "./banx";
 import * as baskt from "./baskt";
@@ -38,6 +39,7 @@ import * as debridge from "./debridge";
 import * as defiland from "./defiland";
 import * as defituna from "./defituna";
 import * as degencoinflip from "./degencoinflip";
+import * as degods from "./degods";
 import * as dflow from "./dflow";
 import * as divvy from "./divvy";
 import * as doubleup from "./doubleup";
@@ -111,6 +113,7 @@ import * as nxfinance from "./nxfinance";
 import * as okx from "./okx";
 import * as ondoFinance from "./ondo-finance";
 import * as openbook from "./openbook";
+import * as openloop from "./openloop";
 import * as orcaStaking from "./orca-staking";
 import * as orca from "./orca";
 import * as orderly from "./orderly";
@@ -146,13 +149,16 @@ import * as save from "./save";
 import * as sentre from "./sentre";
 import * as serum from "./serum";
 import * as sharky from "./sharky";
+import * as smb from "./smb";
 import * as solana from "./solana";
 import * as solanaid from "./solanaid";
+import * as solanart from "./solanart";
 import * as solayer from "./solayer";
 import * as solincinerator from "./solincinerator";
 import * as solsea from "./solsea";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
+import * as squads from "./squads";
 import * as stabble from "./stabble";
 import * as stakewise from "./stakewise";
 import * as staratlas from "./staratlas";
@@ -192,6 +198,7 @@ export const platforms: PlatformRaw[] = [
   asgardfi.platform,
   atrix.platform,
   aurory.platform,
+  backwoods.platform,
   bananagun.platform,
   banx.platform,
   baskt.platform,
@@ -216,6 +223,7 @@ export const platforms: PlatformRaw[] = [
   defiland.platform,
   defituna.platform,
   degencoinflip.platform,
+  degods.platform,
   dflow.platform,
   divvy.platform,
   doubleup.platform,
@@ -289,6 +297,7 @@ export const platforms: PlatformRaw[] = [
   okx.platform,
   ondoFinance.platform,
   openbook.platform,
+  openloop.platform,
   orcaStaking.platform,
   orca.platform,
   orderly.platform,
@@ -324,13 +333,16 @@ export const platforms: PlatformRaw[] = [
   sentre.platform,
   serum.platform,
   sharky.platform,
+  smb.platform,
   solana.platform,
   solanaid.platform,
+  solanart.platform,
   solayer.platform,
   solincinerator.platform,
   solsea.platform,
   sonic.platform,
   spdr.platform,
+  squads.platform,
   stabble.platform,
   stakewise.platform,
   staratlas.platform,
