@@ -12,4 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://www.circle.com/resources",
   },
   tags: ["stablecoin", "bridge"],
+  tokens: ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],
 };

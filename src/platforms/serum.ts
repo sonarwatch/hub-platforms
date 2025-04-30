@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     website: "https://projectserum.com/",
   },
   tags: ["dapp"],
+  tokens: ["SRMuApVNdxXokk5GT7XD5cUUgXMBCoAz2LHeuAoKWRt"],
 };

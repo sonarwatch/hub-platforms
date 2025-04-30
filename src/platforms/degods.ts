@@ -8,4 +8,5 @@ export const platform: PlatformRaw = {
     discord: "https://discord.com/invite/dexyz",
   },
   tags: ["nft-collection"],
+  tokens: ["DUSTawucrTsGU8hcqRdHDCbuYhCPADMLM2VcCb8VnFnQ"],
 };
