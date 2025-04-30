@@ -36,6 +36,7 @@ import * as dflow from "./dflow";
 import * as divvy from "./divvy";
 import * as doubleup from "./doubleup";
 import * as drift from "./drift";
+import * as drip from "./drip";
 import * as dumpy from "./dumpy";
 import * as elemental from "./elemental";
 import * as ensofi from "./ensofi";
@@ -204,6 +205,7 @@ export const platforms: PlatformRaw[] = [
   divvy.platform,
   doubleup.platform,
   drift.platform,
+  drip.platform,
   dumpy.platform,
   elemental.platform,
   ensofi.platform,
