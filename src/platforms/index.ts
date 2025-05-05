@@ -18,12 +18,14 @@ import * as backwoods from "./backwoods";
 import * as bananagun from "./bananagun";
 import * as banx from "./banx";
 import * as baskt from "./baskt";
+import * as believe from "./believe";
 import * as bio from "./bio";
 import * as blaze from "./blaze";
 import * as bloom from "./bloom";
 import * as bonfida from "./bonfida";
 import * as bonkbot from "./bonkbot";
 import * as bonkrewards from "./bonkrewards";
+import * as boop from "./boop";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
 import * as carrot from "./carrot";
@@ -35,6 +37,7 @@ import * as coinmarketcap from "./coinmarketcap";
 import * as cropper from "./cropper";
 import * as cudis from "./cudis";
 import * as cyberfrogs from "./cyberfrogs";
+import * as cytonic from "./cytonic";
 import * as debridge from "./debridge";
 import * as defiland from "./defiland";
 import * as defituna from "./defituna";
@@ -96,6 +99,7 @@ import * as madbears from "./madbears";
 import * as madlads from "./madlads";
 import * as maestro from "./maestro";
 import * as magiceden from "./magiceden";
+import * as magna from "./magna";
 import * as mango from "./mango";
 import * as maple from "./maple";
 import * as marginfi from "./marginfi";
@@ -202,12 +206,14 @@ export const platforms: PlatformRaw[] = [
   bananagun.platform,
   banx.platform,
   baskt.platform,
+  believe.platform,
   bio.platform,
   blaze.platform,
   bloom.platform,
   bonfida.platform,
   bonkbot.platform,
   bonkrewards.platform,
+  boop.platform,
   brawl.platform,
   bskt.platform,
   carrot.platform,
@@ -219,6 +225,7 @@ export const platforms: PlatformRaw[] = [
   cropper.platform,
   cudis.platform,
   cyberfrogs.platform,
+  cytonic.platform,
   debridge.platform,
   defiland.platform,
   defituna.platform,
@@ -280,6 +287,7 @@ export const platforms: PlatformRaw[] = [
   madlads.platform,
   maestro.platform,
   magiceden.platform,
+  magna.platform,
   mango.platform,
   maple.platform,
   marginfi.platform,
