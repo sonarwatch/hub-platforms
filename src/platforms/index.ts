@@ -26,6 +26,7 @@ import * as bonfida from "./bonfida";
 import * as bonkbot from "./bonkbot";
 import * as bonkrewards from "./bonkrewards";
 import * as boop from "./boop";
+import * as bouncebit from "./bouncebit";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
 import * as carrot from "./carrot";
@@ -66,11 +67,13 @@ import * as gary from "./gary";
 import * as gauntlet from "./gauntlet";
 import * as gecko from "./gecko";
 import * as genesysgo from "./genesysgo";
+import * as glow from "./glow";
 import * as gofurs from "./gofurs";
 import * as goosefx from "./goosefx";
 import * as gpool from "./gpool";
 import * as grass from "./grass";
 import * as guano from "./guano";
+import * as haven from "./haven";
 import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
@@ -214,6 +217,7 @@ export const platforms: PlatformRaw[] = [
   bonkbot.platform,
   bonkrewards.platform,
   boop.platform,
+  bouncebit.platform,
   brawl.platform,
   bskt.platform,
   carrot.platform,
@@ -254,11 +258,13 @@ export const platforms: PlatformRaw[] = [
   gauntlet.platform,
   gecko.platform,
   genesysgo.platform,
+  glow.platform,
   gofurs.platform,
   goosefx.platform,
   gpool.platform,
   grass.platform,
   guano.platform,
+  haven.platform,
   hawksight.platform,
   hedgehog.platform,
   hedgy.platform,
