@@ -11,4 +11,5 @@ export const platform: PlatformRaw = {
   },
   description:
     "A Serum-based AMM on Solana allowing for permissionless liquidity and farming.",
+  isDeprecated: true,
 };
