@@ -1,7 +1,7 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "jupiter-exchange",
-  name: "Jupiter Exchange",
+  name: "Jupiter",
   description:
     "The best decentralized liquidity platform, largest DAO & best community in crypto.",
   defiLlamaId: "parent#jupiter",
