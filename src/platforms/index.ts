@@ -147,6 +147,7 @@ import * as rain from "./rain";
 import * as ratex from "./ratex";
 import * as raydium from "./raydium";
 import * as realms from "./realms";
+import * as relay from "./relay";
 import * as renzo from "./renzo";
 import * as runemine from "./runemine";
 import * as saber from "./saber";
@@ -161,6 +162,7 @@ import * as solana from "./solana";
 import * as solanaid from "./solanaid";
 import * as solanart from "./solanart";
 import * as solayer from "./solayer";
+import * as solcasino from "./solcasino";
 import * as solincinerator from "./solincinerator";
 import * as solsea from "./solsea";
 import * as sonic from "./sonic";
@@ -338,6 +340,7 @@ export const platforms: PlatformRaw[] = [
   ratex.platform,
   raydium.platform,
   realms.platform,
+  relay.platform,
   renzo.platform,
   runemine.platform,
   saber.platform,
@@ -352,6 +355,7 @@ export const platforms: PlatformRaw[] = [
   solanaid.platform,
   solanart.platform,
   solayer.platform,
+  solcasino.platform,
   solincinerator.platform,
   solsea.platform,
   sonic.platform,
