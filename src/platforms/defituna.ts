@@ -1,7 +1,7 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "defituna",
-  name: "DefiTuna",
+  name: "DeFiTuna",
   description: "A comprehensive toolkit for Liquidity Providers",
   links: {
     website: "https://defituna.com",
