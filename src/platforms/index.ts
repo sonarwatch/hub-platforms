@@ -16,6 +16,7 @@ import * as atrix from "./atrix";
 import * as aurory from "./aurory";
 import * as backwoods from "./backwoods";
 import * as bananagun from "./bananagun";
+import * as banger from "./banger";
 import * as banx from "./banx";
 import * as baskt from "./baskt";
 import * as believe from "./believe";
@@ -29,6 +30,7 @@ import * as boop from "./boop";
 import * as bouncebit from "./bouncebit";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
+import * as candle from "./candle";
 import * as carrot from "./carrot";
 import * as circle from "./circle";
 import * as circuit from "./circuit";
@@ -210,6 +212,7 @@ export const platforms: PlatformRaw[] = [
   aurory.platform,
   backwoods.platform,
   bananagun.platform,
+  banger.platform,
   banx.platform,
   baskt.platform,
   believe.platform,
@@ -223,6 +226,7 @@ export const platforms: PlatformRaw[] = [
   bouncebit.platform,
   brawl.platform,
   bskt.platform,
+  candle.platform,
   carrot.platform,
   circle.platform,
   circuit.platform,
