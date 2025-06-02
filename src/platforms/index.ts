@@ -166,6 +166,7 @@ import * as solanart from "./solanart";
 import * as solayer from "./solayer";
 import * as solcasino from "./solcasino";
 import * as solincinerator from "./solincinerator";
+import * as solsave from "./solsave";
 import * as solsea from "./solsea";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
@@ -363,6 +364,7 @@ export const platforms: PlatformRaw[] = [
   solayer.platform,
   solcasino.platform,
   solincinerator.platform,
+  solsave.platform,
   solsea.platform,
   sonic.platform,
   spdr.platform,
