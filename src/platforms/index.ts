@@ -169,6 +169,7 @@ import * as solincinerator from "./solincinerator";
 import * as solsea from "./solsea";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
+import * as spice from "./spice";
 import * as squads from "./squads";
 import * as stabble from "./stabble";
 import * as stakewise from "./stakewise";
@@ -365,6 +366,7 @@ export const platforms: PlatformRaw[] = [
   solsea.platform,
   sonic.platform,
   spdr.platform,
+  spice.platform,
   squads.platform,
   stabble.platform,
   stakewise.platform,
