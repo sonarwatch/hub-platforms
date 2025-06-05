@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw } from "../types.js";
 export const platform: PlatformRaw = {
   id: "atrix",
   name: "Atrix",

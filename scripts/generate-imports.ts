@@ -1,6 +1,10 @@
-import * as fs from "fs";
-import * as path from "path";
-import { EOL } from "os";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { EOL } from "node:os";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 function isFirstCharNumber(str: string) {
   return /^\d/.test(str); // Checks if the first character is a digit (0-9)
@@ -25,11 +29,11 @@ const files = fs
   .map((file) => file.slice(0, -3)); // Remove .ts and convert to PascalCase
 
 let indexData = `// ⚠️ This file is auto-generated. Do not modify it manually.${EOL}${EOL}`;
-indexData += `import { PlatformRaw } from "../types";${EOL}${EOL}`;
+indexData += `import { PlatformRaw } from "../types.js";${EOL}${EOL}`;
 
 indexData += files
   .map((platformId) => {
-    return `import * as ${kebabToCamel(platformId)} from "./${platformId}";`;
+    return `import * as ${kebabToCamel(platformId)} from "./${platformId}.js";`;
   }) // Generate export statements
   .join(EOL);
 

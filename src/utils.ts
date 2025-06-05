@@ -1,4 +1,4 @@
-import { Platform } from "./types";
+import { Platform } from "./types.js";
 
 export async function fetchPlatforms(): Promise<Platform[]> {
   const response = await fetch(

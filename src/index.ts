@@ -1,8 +1,8 @@
-import { platforms as platformsRaw } from "./platforms/index";
-import { Platform } from "./types";
+import { platforms as platformsRaw } from "./platforms/index.js";
+import { Platform } from "./types.js";
 
-export { Platform } from "./types";
-export * from "./utils";
+export { Platform } from "./types.js";
+export * from "./utils.js";
 
 const platforms: Platform[] = platformsRaw.map(
   (p): Platform => ({
