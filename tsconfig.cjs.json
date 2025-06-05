@@ -2,12 +2,17 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./dist/cjs",
+    "rootDir": "./src",
     "module": "CommonJS",
     "moduleResolution": "node",
     "sourceMap": false,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "declarationDir": "./dist/cjs/types"
+    "declarationDir": "./dist/types",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules", "tests", "dist"]

@@ -3,15 +3,33 @@
   "version": "1.0.63",
   "private": false,
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
       "import": "./dist/esm/index.js",
       "require": "./dist/cjs/index.js",
       "default": "./dist/esm/index.js"
+    },
+    "./platforms": {
+      "types": "./dist/types/platforms/index.d.ts",
+      "import": "./dist/esm/platforms/index.js",
+      "require": "./dist/cjs/platforms/index.js",
+      "default": "./dist/esm/platforms/index.js"
+    },
+    "./utils": {
+      "types": "./dist/types/utils.d.ts",
+      "import": "./dist/esm/utils.js",
+      "require": "./dist/cjs/utils.js",
+      "default": "./dist/esm/utils.js"
+    },
+    "./types": {
+      "types": "./dist/types/types.d.ts",
+      "import": "./dist/esm/types.js",
+      "require": "./dist/cjs/types.js",
+      "default": "./dist/esm/types.js"
     }
   },
   "files": [
