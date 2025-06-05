@@ -8,14 +8,18 @@
   "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/types/index.d.ts",
-      "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js",
-      "default": "./dist/esm/index.js"
+      "types": "./dist/types/src/index.d.ts",
+      "import": "./dist/esm/src/index.js",
+      "require": "./dist/cjs/src/index.js",
+      "default": "./dist/esm/src/index.js"
     }
   },
   "files": [
-    "dist"
+    "dist/**/*.js",
+    "dist/**/*.js.map",
+    "dist/**/*.d.ts",
+    "dist/**/*.d.ts.map",
+    "dist/**/*.tsbuildinfo"
   ],
   "publishConfig": {
     "access": "public"
