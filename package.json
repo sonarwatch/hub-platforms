@@ -1,6 +1,6 @@
 {
   "name": "@sonarwatch/hub-platforms",
-  "version": "1.0.63",
+  "version": "1.0.64",
   "private": false,
   "type": "module",
   "main": "./dist/cjs/index.js",
