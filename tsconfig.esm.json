@@ -4,7 +4,6 @@
     "outDir": "./dist/esm",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "declaration": true,
     "declarationDir": "./dist/types"
   },
   "include": ["src"],

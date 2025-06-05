@@ -12,12 +12,17 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "declarationMap": true
+    "declarationMap": true,
+    "composite": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "tests"],
   "ts-node": {
     "esm": true,
     "experimentalSpecifierResolution": "node"
-  }
+  },
+  "references": [
+    { "path": "./tsconfig.cjs.json" },
+    { "path": "./tsconfig.esm.json" }
+  ]
 }

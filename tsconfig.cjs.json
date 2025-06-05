@@ -4,9 +4,10 @@
     "outDir": "./dist/cjs",
     "module": "CommonJS",
     "moduleResolution": "node",
-    "declaration": false,
-    "declarationMap": false,
-    "sourceMap": false
+    "sourceMap": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declarationDir": "./dist/cjs/types"
   },
   "include": ["src"],
   "exclude": ["node_modules", "tests", "dist"]
