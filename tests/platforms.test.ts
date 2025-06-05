@@ -1,7 +1,7 @@
 import { existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { z } from "zod";
-import { platforms } from "../src/index";
+import { platforms } from "../src/index.js";
 
 const PlatformSchema = z.object({
   id: z.string(),
