@@ -190,6 +190,7 @@ import * as uxd from "./uxd";
 import * as vaultka from "./vaultka";
 import * as vectis from "./vectis";
 import * as vidar from "./vidar";
+import * as wasabi from "./wasabi";
 import * as whalesmarket from "./whalesmarket";
 import * as wink from "./wink";
 import * as wormhole from "./wormhole";
@@ -388,6 +389,7 @@ export const platforms: PlatformRaw[] = [
   vaultka.platform,
   vectis.platform,
   vidar.platform,
+  wasabi.platform,
   whalesmarket.platform,
   wink.platform,
   wormhole.platform,
