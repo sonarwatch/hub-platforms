@@ -39,6 +39,7 @@ import * as clone from "./clone";
 import * as coinmarketcap from "./coinmarketcap";
 import * as cropper from "./cropper";
 import * as cudis from "./cudis";
+import * as cushion from "./cushion";
 import * as cyberfrogs from "./cyberfrogs";
 import * as cytonic from "./cytonic";
 import * as debridge from "./debridge";
@@ -238,6 +239,7 @@ export const platforms: PlatformRaw[] = [
   coinmarketcap.platform,
   cropper.platform,
   cudis.platform,
+  cushion.platform,
   cyberfrogs.platform,
   cytonic.platform,
   debridge.platform,
