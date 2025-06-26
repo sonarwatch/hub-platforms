@@ -110,6 +110,7 @@ import * as mango from "./mango";
 import * as maple from "./maple";
 import * as marginfi from "./marginfi";
 import * as marinade from "./marinade";
+import * as maxbid from "./maxbid";
 import * as mayan from "./mayan";
 import * as metaplex from "./metaplex";
 import * as meteora from "./meteora";
@@ -310,6 +311,7 @@ export const platforms: PlatformRaw[] = [
   maple.platform,
   marginfi.platform,
   marinade.platform,
+  maxbid.platform,
   mayan.platform,
   metaplex.platform,
   meteora.platform,
