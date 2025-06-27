@@ -4,9 +4,9 @@ export const platform: PlatformRaw = {
   name: "Grass",
   description: "Get rewarded for your unused internet",
   links: {
-    website: "https://www.grassfoundation.io/stake",
+    website: "https://www.grass.io/",
     discord: "https://discord.com/invite/getgrass",
-    twitter: "https://twitter.com/getgrass_io",
+    twitter: "https://x.com/grass",
     documentation: "https://grass-foundation.gitbook.io/grass-docs",
   },
   tokens: ["Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs"],

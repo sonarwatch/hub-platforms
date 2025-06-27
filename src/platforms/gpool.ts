@@ -6,4 +6,5 @@ export const platform: PlatformRaw = {
     website: "https://stake.gpool.cloud/",
   },
   tags: ["dapp"],
+  isDeprecated: true,
 };

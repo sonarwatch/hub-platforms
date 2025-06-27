@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Layer3",
   description: "Powering the next generation of consumer attention.",
   links: {
-    website: "https://solana.layer3.xyz/",
+    website: "https://app.layer3.xyz/",
     discord: "https://discord.gg/layer3",
     twitter: "https://twitter.com/layer3xyz",
     github: "https://github.com/layer3xyz",

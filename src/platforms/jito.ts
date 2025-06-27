@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description: "Earn MEV rewards through Jito's Solana Liquid Staking pool.",
   defiLlamaId: "jito",
   links: {
-    website: "https://jito.network/harvest",
+    website: "https://jito.network/",
     discord: "https://discord.gg/jito",
     twitter: "https://twitter.com/jito_sol",
     github: "https://github.com/jito-foundation",

@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Metaplex",
   description: "Build decentralizedapplications on Solana and the SVM",
   links: {
-    website: "https://resize.metaplex.com",
+    website: "https://metaplex.com",
     discord: "https://discord.gg/metaplex",
     twitter: "https://x.com/metaplex",
     github: "https://github.com/metaplex-foundation",

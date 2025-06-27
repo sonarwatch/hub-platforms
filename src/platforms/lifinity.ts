@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Solana's oracle-based DEX, designed to improve capital efficiency and reverse impermanent loss.",
   defiLlamaId: "parent#lifinity",
   links: {
-    website: "https://ido.lifinity.io/rewards",
+    website: "https://lifinity.io/",
     discord: "http://discord.gg/K2tvfcXwWr",
     twitter: "https://x.com/Lifinity_io",
     github: "https://github.com/Lifinity-Labs",

@@ -4,6 +4,6 @@ export const platform: PlatformRaw = {
   name: "Cudis",
   tags: ["dapp"],
   links: {
-    website: "https://data.cudis.xyz/earn",
+    website: "https://www.cudis.xyz/002",
   },
 };

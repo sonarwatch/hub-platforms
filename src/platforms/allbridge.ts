@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
   tags: ["tool", "bridge"],
   defiLlamaId: "allbridge-core",
   links: {
-    website: "https://core.allbridge.io/pools",
+    website: "https://core.allbridge.io",
     discord: "https://discord.com/invite/ASuPY8d3E6",
     twitter: "https://twitter.com/Allbridge_io",
     github: "https://github.com/allbridge-io",

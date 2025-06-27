@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Picasso L1 Protocol enables secure bridging and multi-asset restaking through cross-chain Inter-Blockchain-Communication (IBC).",
   tags: ["dapp", "lst"],
   links: {
-    website: "https://app.picasso.network/solana-staking/",
+    website: "https://app.picasso.network/",
     discord: "https://discord.com/invite/composable",
     telegram: "https://t.me/composablechat",
     twitter: "https://x.com/picasso_network",

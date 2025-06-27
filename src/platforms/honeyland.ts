@@ -5,6 +5,6 @@ export const platform: PlatformRaw = {
   description: "HDX Staking",
   tags: ["dapp"],
   links: {
-    website: "https://stake.honey.land/",
+    website: "https://honey.land/",
   },
 };
