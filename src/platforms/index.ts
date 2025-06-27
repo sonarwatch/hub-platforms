@@ -125,7 +125,6 @@ import * as okx from "./okx";
 import * as ondoFinance from "./ondo-finance";
 import * as openbook from "./openbook";
 import * as openloop from "./openloop";
-import * as orcaStaking from "./orca-staking";
 import * as orca from "./orca";
 import * as orderly from "./orderly";
 import * as ore from "./ore";
@@ -326,7 +325,6 @@ export const platforms: PlatformRaw[] = [
   ondoFinance.platform,
   openbook.platform,
   openloop.platform,
-  orcaStaking.platform,
   orca.platform,
   orderly.platform,
   ore.platform,
