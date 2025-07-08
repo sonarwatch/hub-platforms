@@ -4,6 +4,10 @@
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonarwatch/hub-platforms.git"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
