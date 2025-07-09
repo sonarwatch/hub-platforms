@@ -19,7 +19,6 @@
     "dist/**/*.d.ts"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   },
   "scripts": {
