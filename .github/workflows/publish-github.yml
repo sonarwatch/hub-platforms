@@ -33,7 +33,7 @@ jobs:
       - name: Build the package
         run: npm run build:ci
 
-      - name: Publish to npm (github)
+      - name: Publish package (github)
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
