@@ -69,9 +69,10 @@ describe("Platforms", () => {
   // verify that the img folder has no extra images
   it("should not have extra images in the img folder", () => {
     const imgDir = join(__dirname, "..", "img");
-    const extraImages = readdirSync(imgDir).filter(
-      (file) => !platforms.some((p) => file === `${p.id}.webp`),
-    );
+    const extraImages = readdirSync(imgDir, { withFileTypes: true })
+      .filter((dirent) => dirent.isFile())
+      .map((dirent) => dirent.name)
+      .filter((file) => !platforms.some((p) => file === `${p.id}.webp`));
 
     if (extraImages.length > 0) {
       throw new Error(`Extra images in the img folder: ${extraImages}`);
