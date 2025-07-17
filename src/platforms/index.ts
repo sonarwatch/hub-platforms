@@ -30,6 +30,7 @@ import * as boop from "./boop";
 import * as bouncebit from "./bouncebit";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
+import * as btcsol from "./btcsol";
 import * as byreal from "./byreal";
 import * as candle from "./candle";
 import * as carrot from "./carrot";
@@ -232,6 +233,7 @@ export const platforms: PlatformRaw[] = [
   bouncebit.platform,
   brawl.platform,
   bskt.platform,
+  btcsol.platform,
   byreal.platform,
   candle.platform,
   carrot.platform,
