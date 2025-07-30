@@ -1,10 +1,11 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "frax",
-  name: "Frax Staked ETH",
-  defiLlamaId: "frax-ether",
+  id: "graphite",
+  name: "Graphite Protocol",
   links: {
-    website: "https://frax.finance/",
+    website: "https://gpstaking.taiyorobotics.com/",
+    twitter: "https://x.com/GraphiteProto",
+    documentation: "https://solport.gitbook.io/graphite-whitepaper",
   },
-  tags: ["stablecoin"],
+  tags: ["dapp"],
 };
