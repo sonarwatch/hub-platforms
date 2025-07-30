@@ -76,6 +76,7 @@ import * as glow from "./glow";
 import * as gofurs from "./gofurs";
 import * as goosefx from "./goosefx";
 import * as gpool from "./gpool";
+import * as graphite from "./graphite";
 import * as grass from "./grass";
 import * as guano from "./guano";
 import * as haven from "./haven";
@@ -279,6 +280,7 @@ export const platforms: PlatformRaw[] = [
   gofurs.platform,
   goosefx.platform,
   gpool.platform,
+  graphite.platform,
   grass.platform,
   guano.platform,
   haven.platform,
