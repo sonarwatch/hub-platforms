@@ -1,6 +1,6 @@
 import { PlatformRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "Tribeca",
+  id: "tribeca",
   name: "Tribeca",
   description: "Onchain Governance.",
   tags: ["dapp", "dao"],
