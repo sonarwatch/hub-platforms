@@ -74,6 +74,7 @@ import * as gecko from "./gecko";
 import * as genesysgo from "./genesysgo";
 import * as glow from "./glow";
 import * as gofurs from "./gofurs";
+import * as goki from "./goki";
 import * as goosefx from "./goosefx";
 import * as gpool from "./gpool";
 import * as graphite from "./graphite";
@@ -188,6 +189,7 @@ import * as texture from "./texture";
 import * as thevault from "./thevault";
 import * as titan from "./titan";
 import * as triad from "./triad";
+import * as tribeca from "./tribeca";
 import * as tulip from "./tulip";
 import * as underdog from "./underdog";
 import * as uxd from "./uxd";
@@ -278,6 +280,7 @@ export const platforms: PlatformRaw[] = [
   genesysgo.platform,
   glow.platform,
   gofurs.platform,
+  goki.platform,
   goosefx.platform,
   gpool.platform,
   graphite.platform,
@@ -392,6 +395,7 @@ export const platforms: PlatformRaw[] = [
   thevault.platform,
   titan.platform,
   triad.platform,
+  tribeca.platform,
   tulip.platform,
   underdog.platform,
   uxd.platform,
