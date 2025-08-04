@@ -149,6 +149,7 @@ import * as puffcoin from "./puffcoin";
 import * as pumpfun from "./pumpfun";
 import * as pumpkin from "./pumpkin";
 import * as pumpswap from "./pumpswap";
+import * as pyra from "./pyra";
 import * as pyth from "./pyth";
 import * as quarry from "./quarry";
 import * as rain from "./rain";
@@ -356,6 +357,7 @@ export const platforms: PlatformRaw[] = [
   pumpfun.platform,
   pumpkin.platform,
   pumpswap.platform,
+  pyra.platform,
   pyth.platform,
   quarry.platform,
   rain.platform,
