@@ -194,6 +194,7 @@ import * as triad from "./triad";
 import * as tribeca from "./tribeca";
 import * as tulip from "./tulip";
 import * as underdog from "./underdog";
+import * as uprock from "./uprock";
 import * as uxd from "./uxd";
 import * as vaultka from "./vaultka";
 import * as vectis from "./vectis";
@@ -402,6 +403,7 @@ export const platforms: PlatformRaw[] = [
   tribeca.platform,
   tulip.platform,
   underdog.platform,
+  uprock.platform,
   uxd.platform,
   vaultka.platform,
   vectis.platform,
