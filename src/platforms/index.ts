@@ -134,6 +134,7 @@ import * as orca from "./orca";
 import * as orderly from "./orderly";
 import * as ore from "./ore";
 import * as oresupply from "./oresupply";
+import * as pancakeswap from "./pancakeswap";
 import * as paraswap from "./paraswap";
 import * as parcl from "./parcl";
 import * as perena from "./perena";
@@ -343,6 +344,7 @@ export const platforms: PlatformRaw[] = [
   orderly.platform,
   ore.platform,
   oresupply.platform,
+  pancakeswap.platform,
   paraswap.platform,
   parcl.platform,
   perena.platform,
