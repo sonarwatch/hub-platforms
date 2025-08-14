@@ -9,4 +9,5 @@ export const platform: PlatformRaw = {
     telegram: "https://t.me/pumpfunsupport",
     twitter: "https://x.com/pumpdotfun",
   },
+  tokens: ["pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn"],
 };

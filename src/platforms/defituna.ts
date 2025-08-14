@@ -10,4 +10,5 @@ export const platform: PlatformRaw = {
     documentation: "https://defituna.gitbook.io/defituna-docs",
   },
   tags: ["dapp"],
+  tokens: ["TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx"],
 };
