@@ -2,7 +2,7 @@ import { platforms as platformsRaw } from "./platforms/index";
 import { services as servicesRaw } from "./platforms/index";
 import { Platform, Service } from "./types";
 
-export { Platform } from "./types";
+export { Platform, Service } from "./types";
 export * from "./utils";
 
 const platforms: Platform[] = platformsRaw.map(
@@ -25,4 +25,4 @@ const services: Service[] = servicesRaw.map(
   }),
 );
 
-export { platforms };
+export { platforms, services };
