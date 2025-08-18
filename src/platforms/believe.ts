@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "believe",
   name: "Believe",
@@ -11,3 +11,5 @@ export const platform: PlatformRaw = {
   description:
     "Quickly launch tokens by replying to any tweet with @launchcoin +name to turn it into a coin.",
 };
+
+export const services: ServiceRaw[] = [];

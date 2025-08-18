@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "fluxbeam",
   name: "Flux Beam",
@@ -14,3 +14,5 @@ export const platform: PlatformRaw = {
   tokens: ["FLUXBmPhT3Fd1EDVFdg46YREqHBeNypn1h4EbnTzWERX"],
   tags: ["dapp"],
 };
+
+export const services: ServiceRaw[] = [];

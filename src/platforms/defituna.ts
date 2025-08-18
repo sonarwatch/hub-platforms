@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "defituna",
   name: "DeFiTuna",
@@ -12,3 +12,5 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
   tokens: ["TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx"],
 };
+
+export const services: ServiceRaw[] = [];

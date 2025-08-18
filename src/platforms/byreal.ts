@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "byreal",
   name: "Byreal",
@@ -10,3 +10,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.byreal.io/products/getting-started",
   },
 };
+
+export const services: ServiceRaw[] = [];

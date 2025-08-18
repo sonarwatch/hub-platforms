@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "magiceden",
   name: "MagicEden",
@@ -13,3 +13,4 @@ export const platform: PlatformRaw = {
   tokens: ["MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u"],
   tags: ["tool", "nft-marketplace"],
 };
+export const services: ServiceRaw[] = [];

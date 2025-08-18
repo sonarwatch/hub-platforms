@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "switchboard",
   name: "Switchboard",
@@ -15,3 +15,4 @@ export const platform: PlatformRaw = {
   },
   tags: ["tool"],
 };
+export const services: ServiceRaw[] = [];

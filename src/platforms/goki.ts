@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "goki",
   name: "Goki",
@@ -11,3 +11,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/GokiProtocol",
   },
 };
+
+export const services: ServiceRaw[] = [];

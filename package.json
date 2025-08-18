@@ -47,5 +47,7 @@
     "typescript": "^5.8.2",
     "zod": "^3.24.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@sonarwatch/portfolio-core": "^0.16.44"
+  }
 }

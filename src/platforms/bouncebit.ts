@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "bouncebit",
   name: "BounceBit",
@@ -12,3 +12,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.bouncebit.io/",
   },
 };
+
+export const services: ServiceRaw[] = [];

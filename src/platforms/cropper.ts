@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "cropper",
   name: "Cropper",
@@ -16,3 +16,5 @@ export const platform: PlatformRaw = {
     "Cropper is an decentralized exchange built on the Solana blockchain.",
   tags: ["dapp"],
 };
+
+export const services: ServiceRaw[] = [];

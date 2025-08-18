@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "adrastea",
   name: "Adrastea",
@@ -14,3 +14,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.adrastea.fi/",
   },
 };
+
+export const services: ServiceRaw[] = [];

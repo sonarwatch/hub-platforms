@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "atrix",
   name: "Atrix",
@@ -13,3 +13,5 @@ export const platform: PlatformRaw = {
     "A Serum-based AMM on Solana allowing for permissionless liquidity and farming.",
   isDeprecated: true,
 };
+
+export const services: ServiceRaw[] = [];

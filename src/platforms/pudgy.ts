@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "pudgy",
   name: "Pudgy Penguins",
@@ -10,3 +10,4 @@ export const platform: PlatformRaw = {
   tokens: ["2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv"],
   tags: ["nft-collection"],
 };
+export const services: ServiceRaw[] = [];

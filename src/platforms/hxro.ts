@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "hxro",
   name: "Hxro",
@@ -15,3 +15,5 @@ export const platform: PlatformRaw = {
   },
   tokens: ["HxhWkVpk5NS4Ltg5nij2G671CKXFRKPK8vy271Ub4uEK"],
 };
+
+export const services: ServiceRaw[] = [];

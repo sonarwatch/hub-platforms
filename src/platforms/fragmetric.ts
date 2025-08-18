@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "fragmetric",
   name: "Fragmetric",
@@ -19,3 +19,5 @@ export const platform: PlatformRaw = {
     "FRAGJ157KSDfGvBJtCSrsTWUqFnZhrw4aC8N8LqHuoos",
   ],
 };
+
+export const services: ServiceRaw[] = [];

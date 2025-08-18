@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "glow",
   name: "Glow",
@@ -9,3 +9,5 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/glowfinance",
   },
 };
+
+export const services: ServiceRaw[] = [];

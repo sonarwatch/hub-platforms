@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "stakewise",
   name: "StakeWise Staked ETH",
@@ -10,3 +10,4 @@ export const platform: PlatformRaw = {
   tokens: ["LAinEtNLgpmCP9Rvsf5Hn8W6EhNiKLZQti1xfWMLy6X"],
   tags: ["tool"],
 };
+export const services: ServiceRaw[] = [];

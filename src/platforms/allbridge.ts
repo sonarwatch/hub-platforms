@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "allbridge",
   name: "Allbridge",
@@ -16,3 +16,5 @@ export const platform: PlatformRaw = {
     medium: "https://allbridge.medium.com/",
   },
 };
+
+export const services: ServiceRaw[] = [];

@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "flowmatic",
   name: "Flowmatic",
@@ -10,3 +10,5 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.flowmatic.xyz/",
   },
 };
+
+export const services: ServiceRaw[] = [];

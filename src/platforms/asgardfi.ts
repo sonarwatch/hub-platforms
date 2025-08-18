@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "asgardfi",
   name: "Asgard Finance",
@@ -8,3 +8,5 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/asgardfi",
   },
 };
+
+export const services: ServiceRaw[] = [];

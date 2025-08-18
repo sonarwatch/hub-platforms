@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "graphite",
   name: "Graphite Protocol",
@@ -9,3 +9,5 @@ export const platform: PlatformRaw = {
   },
   tags: ["dapp"],
 };
+
+export const services: ServiceRaw[] = [];

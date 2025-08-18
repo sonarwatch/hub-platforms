@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "gpool",
   name: "GPool",
@@ -8,3 +8,5 @@ export const platform: PlatformRaw = {
   tags: ["dapp"],
   isDeprecated: true,
 };
+
+export const services: ServiceRaw[] = [];

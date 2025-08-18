@@ -1,5 +1,6 @@
 import { platforms as platformsRaw } from "./platforms/index";
-import { Platform } from "./types";
+import { services as servicesRaw } from "./platforms/index";
+import { Platform, Service } from "./types";
 
 export { Platform } from "./types";
 export * from "./utils";
@@ -9,6 +10,16 @@ const platforms: Platform[] = platformsRaw.map(
     ...p,
     image: `https://raw.githubusercontent.com/sonarwatch/hub-platforms/main/img/${p.id}.webp`,
     isDeprecated: p.isDeprecated || false,
+  }),
+);
+
+const services: Service[] = servicesRaw.map(
+  (s): Service => ({
+    ...s,
+    contracts: s.contractsRaw.map((c) => ({
+      ...c,
+      platformId: s.platformId,
+    })),
   }),
 );
 

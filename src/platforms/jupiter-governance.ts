@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "jupiter-governance",
   name: "Jupiter DAO",
@@ -10,3 +10,5 @@ export const platform: PlatformRaw = {
   tokens: ["JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"],
   tags: ["dao"],
 };
+
+export const services: ServiceRaw[] = [];

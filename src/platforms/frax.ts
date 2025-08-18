@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "frax",
   name: "Frax Staked ETH",
@@ -8,3 +8,5 @@ export const platform: PlatformRaw = {
   },
   tags: ["stablecoin"],
 };
+
+export const services: ServiceRaw[] = [];

@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "armada",
   name: "Armada",
@@ -13,3 +13,5 @@ export const platform: PlatformRaw = {
     github: "https://github.com/mithraiclabs",
   },
 };
+
+export const services: ServiceRaw[] = [];

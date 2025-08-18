@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "zeus",
   name: "Zeus",
@@ -14,3 +14,4 @@ export const platform: PlatformRaw = {
   description: "First Multichain Layer on Solana.",
   tags: ["dapp"],
 };
+export const services: ServiceRaw[] = [];

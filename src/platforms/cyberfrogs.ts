@@ -1,4 +1,4 @@
-import { PlatformRaw } from "../types";
+import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "cyberfrogs",
   name: "CyberFrogs",
@@ -10,3 +10,5 @@ export const platform: PlatformRaw = {
   description: "Leading NFT Development, Innovation & Crypto Trading Tools",
   tags: ["nft-collection"],
 };
+
+export const services: ServiceRaw[] = [];
