@@ -40,7 +40,7 @@ indexData += files
   .join(EOL);
 indexData += `${EOL}];${EOL}`;
 
-indexData += `${EOL}${EOL}`;
+indexData += `${EOL}`;
 indexData += `export const services: ServiceRaw[] = [${EOL}`;
 indexData += files
   .map((platformId) => `  ...${kebabToCamel(platformId)}.services,`)
