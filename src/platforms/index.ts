@@ -85,6 +85,7 @@ import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
 import * as helium from "./helium";
+import * as holdium from "./holdium";
 import * as honeyland from "./honeyland";
 import * as hubble from "./hubble";
 import * as huma from "./huma";
@@ -295,6 +296,7 @@ export const platforms: PlatformRaw[] = [
   hedgehog.platform,
   hedgy.platform,
   helium.platform,
+  holdium.platform,
   honeyland.platform,
   hubble.platform,
   huma.platform,
@@ -506,6 +508,7 @@ export const services: ServiceRaw[] = [
   ...hedgehog.services,
   ...hedgy.services,
   ...helium.services,
+  ...holdium.services,
   ...honeyland.services,
   ...hubble.services,
   ...huma.services,
