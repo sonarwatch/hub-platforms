@@ -5,7 +5,7 @@ export const platform: PlatformRaw = {
   description:
     "Sanctum is a new primitive built on Solana to power liquid staking and bring Solana into an infinite-LST future. Sanctum enables users that stake SOL natively or with a liquid staking token (LST) to tap into a powerful unified liquidity layer.",
   defiLlamaId: "parent#sanctum",
-  tags: ["lst"],
+  tags: ["lst", "dapp"],
   links: {
     website: "https://www.sanctum.so/",
     discord: "https://discord.gg/sanctumso",
