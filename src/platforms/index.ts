@@ -11,6 +11,7 @@ import * as allbridge from "./allbridge";
 import * as alldomain from "./alldomain";
 import * as amulet from "./amulet";
 import * as armada from "./armada";
+import * as artrade from "./artrade";
 import * as asgardfi from "./asgardfi";
 import * as atrix from "./atrix";
 import * as aurory from "./aurory";
@@ -222,6 +223,7 @@ export const platforms: PlatformRaw[] = [
   alldomain.platform,
   amulet.platform,
   armada.platform,
+  artrade.platform,
   asgardfi.platform,
   atrix.platform,
   aurory.platform,
@@ -434,6 +436,7 @@ export const services: ServiceRaw[] = [
   ...alldomain.services,
   ...amulet.services,
   ...armada.services,
+  ...artrade.services,
   ...asgardfi.services,
   ...atrix.services,
   ...aurory.services,
