@@ -1,10 +1,14 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "gecko",
-  name: "Gecko",
+  id: "lince",
+  name: "Lince",
+  description:
+    "Earn with an investment strategy tailored to your risk profile.",
   links: {
-    website: "https://staking.geckocoin.xyz/",
-    twitter: "https://twitter.com/GeckCoin",
+    website: "https://lince.finance/",
+    twitter: "https://x.com/LinceFinance",
+    discord: "https://discord.gg/lincefinance",
+    telegram: "https://t.me/LinceFinance",
   },
   tags: ["dapp"],
 };
