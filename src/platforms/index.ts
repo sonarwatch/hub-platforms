@@ -106,6 +106,7 @@ import * as lavarage from "./lavarage";
 import * as layer3 from "./layer3";
 import * as lifinity from "./lifinity";
 import * as ligma from "./ligma";
+import * as lince from "./lince";
 import * as loopscale from "./loopscale";
 import * as m1capital from "./m1capital";
 import * as madbears from "./madbears";
@@ -318,6 +319,7 @@ export const platforms: PlatformRaw[] = [
   layer3.platform,
   lifinity.platform,
   ligma.platform,
+  lince.platform,
   loopscale.platform,
   m1capital.platform,
   madbears.platform,
@@ -531,6 +533,7 @@ export const services: ServiceRaw[] = [
   ...layer3.services,
   ...lifinity.services,
   ...ligma.services,
+  ...lince.services,
   ...loopscale.services,
   ...m1capital.services,
   ...madbears.services,
