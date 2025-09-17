@@ -5,7 +5,6 @@ export const platform: PlatformRaw = {
   tags: ["gaming", "nft-collection"],
   links: {
     website: "https://theportal.to/",
-    github: "https://github.com/port-finance",
     twitter: "https://x.com/_portals_",
     discord: "https://discord.gg/portals",
   },
