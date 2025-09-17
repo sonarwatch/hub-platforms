@@ -148,6 +148,7 @@ import * as photon from "./photon";
 import * as picasso from "./picasso";
 import * as pluto from "./pluto";
 import * as port from "./port";
+import * as portals from "./portals";
 import * as pudgy from "./pudgy";
 import * as puffcoin from "./puffcoin";
 import * as pumpfun from "./pumpfun";
@@ -361,6 +362,7 @@ export const platforms: PlatformRaw[] = [
   picasso.platform,
   pluto.platform,
   port.platform,
+  portals.platform,
   pudgy.platform,
   puffcoin.platform,
   pumpfun.platform,
@@ -575,6 +577,7 @@ export const services: ServiceRaw[] = [
   ...picasso.services,
   ...pluto.services,
   ...port.services,
+  ...portals.services,
   ...pudgy.services,
   ...puffcoin.services,
   ...pumpfun.services,
