@@ -107,6 +107,7 @@ import * as layer3 from "./layer3";
 import * as lifinity from "./lifinity";
 import * as ligma from "./ligma";
 import * as lince from "./lince";
+import * as lombard from "./lombard";
 import * as loopscale from "./loopscale";
 import * as m1capital from "./m1capital";
 import * as madbears from "./madbears";
@@ -177,6 +178,7 @@ import * as solanart from "./solanart";
 import * as solayer from "./solayer";
 import * as solcasino from "./solcasino";
 import * as solincinerator from "./solincinerator";
+import * as solomon from "./solomon";
 import * as solsave from "./solsave";
 import * as solsea from "./solsea";
 import * as sonic from "./sonic";
@@ -320,6 +322,7 @@ export const platforms: PlatformRaw[] = [
   lifinity.platform,
   ligma.platform,
   lince.platform,
+  lombard.platform,
   loopscale.platform,
   m1capital.platform,
   madbears.platform,
@@ -390,6 +393,7 @@ export const platforms: PlatformRaw[] = [
   solayer.platform,
   solcasino.platform,
   solincinerator.platform,
+  solomon.platform,
   solsave.platform,
   solsea.platform,
   sonic.platform,
@@ -534,6 +538,7 @@ export const services: ServiceRaw[] = [
   ...lifinity.services,
   ...ligma.services,
   ...lince.services,
+  ...lombard.services,
   ...loopscale.services,
   ...m1capital.services,
   ...madbears.services,
@@ -604,6 +609,7 @@ export const services: ServiceRaw[] = [
   ...solayer.services,
   ...solcasino.services,
   ...solincinerator.services,
+  ...solomon.services,
   ...solsave.services,
   ...solsea.services,
   ...sonic.services,
