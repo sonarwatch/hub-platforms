@@ -14,5 +14,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.switchboard.xyz/",
   },
   tags: ["tool"],
+  tokens: ["SW1TCHLmRGTfW5xZknqQdpdarB8PD95sJYWpNp9TbFx"],
 };
 export const services: ServiceRaw[] = [];
