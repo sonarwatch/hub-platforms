@@ -162,6 +162,7 @@ import * as rain from "./rain";
 import * as ratex from "./ratex";
 import * as raydium from "./raydium";
 import * as realms from "./realms";
+import * as reflect from "./reflect";
 import * as relay from "./relay";
 import * as renzo from "./renzo";
 import * as runemine from "./runemine";
@@ -378,6 +379,7 @@ export const platforms: PlatformRaw[] = [
   ratex.platform,
   raydium.platform,
   realms.platform,
+  reflect.platform,
   relay.platform,
   renzo.platform,
   runemine.platform,
@@ -595,6 +597,7 @@ export const services: ServiceRaw[] = [
   ...ratex.services,
   ...raydium.services,
   ...realms.services,
+  ...reflect.services,
   ...relay.services,
   ...renzo.services,
   ...runemine.services,
