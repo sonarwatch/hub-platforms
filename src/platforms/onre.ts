@@ -1,7 +1,7 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "ore",
-  name: "Ore",
+  id: "onre",
+  name: "OnRe",
   description: "yielding dollar asset on Solana",
   links: {
     website: "https://www.onre.finance/",
