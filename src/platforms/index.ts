@@ -132,6 +132,7 @@ import * as nosana from "./nosana";
 import * as nxfinance from "./nxfinance";
 import * as okx from "./okx";
 import * as ondoFinance from "./ondo-finance";
+import * as onre from "./onre";
 import * as openbook from "./openbook";
 import * as openloop from "./openloop";
 import * as orca from "./orca";
@@ -349,6 +350,7 @@ export const platforms: PlatformRaw[] = [
   nxfinance.platform,
   okx.platform,
   ondoFinance.platform,
+  onre.platform,
   openbook.platform,
   openloop.platform,
   orca.platform,
@@ -567,6 +569,7 @@ export const services: ServiceRaw[] = [
   ...nxfinance.services,
   ...okx.services,
   ...ondoFinance.services,
+  ...onre.services,
   ...openbook.services,
   ...openloop.services,
   ...orca.services,
