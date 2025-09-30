@@ -16,6 +16,6 @@ export const platform: PlatformRaw = {
     medium: "https://medium.com/@orderlynetwork",
   },
   tokens: ["ABt79MkRXUsoHuV2CVQT32YMXQhTparKFjmidQxgiQ6E"],
-  tags: ["bridge"],
+  tags: ["bridge", "dapp"],
 };
 export const services: ServiceRaw[] = [];

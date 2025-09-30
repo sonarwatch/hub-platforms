@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     website: "https://www.helium.com/",
     twitter: "https://twitter.com/helium",
   },
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 
 export const services: ServiceRaw[] = [];

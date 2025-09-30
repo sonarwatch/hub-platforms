@@ -11,7 +11,7 @@ export const platform: PlatformRaw = {
     github: "https://github.com/circlefin",
     documentation: "https://www.circle.com/resources",
   },
-  tags: ["stablecoin", "bridge"],
+  tags: ["stablecoin", "bridge", "dapp"],
   tokens: ["EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"],
 };
 

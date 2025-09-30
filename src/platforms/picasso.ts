@@ -6,7 +6,7 @@ export const platform: PlatformRaw = {
     "Picasso L1 Protocol enables secure bridging and multi-asset restaking through cross-chain Inter-Blockchain-Communication (IBC).",
   tags: ["dapp", "lst"],
   links: {
-    website: "https://app.picasso.network/",
+    website: "https://www.picasso.network/",
     discord: "https://discord.com/invite/composable",
     telegram: "https://t.me/composablechat",
     twitter: "https://x.com/picasso_network",
@@ -15,5 +15,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.picasso.network/",
   },
   tokens: ["966vsqwoS3ZBrHesTyAvE7esFV2kaHaDFLLXs4asPdLJ"],
+  isDeprecated: true,
 };
 export const services: ServiceRaw[] = [];

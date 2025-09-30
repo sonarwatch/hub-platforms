@@ -8,6 +8,6 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/solincinerator",
     discord: "https://discord.gg/solslugs",
   },
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 export const services: ServiceRaw[] = [];

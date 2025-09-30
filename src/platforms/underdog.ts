@@ -6,6 +6,6 @@ export const platform: PlatformRaw = {
     website: "https://mint.underdogprotocol.com/",
     twitter: "https://x.com/BackAnUnderdog",
   },
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 export const services: ServiceRaw[] = [];

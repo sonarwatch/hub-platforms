@@ -8,6 +8,6 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/solcasinoio",
     telegram: "https://t.me/SolcasinoIOBot",
   },
-  tags: ["gaming"],
+  tags: ["gaming", "dapp"],
 };
 export const services: ServiceRaw[] = [];

@@ -11,6 +11,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.layer3.xyz/",
   },
   tokens: ["5k84VjAKoGPXa7ias1BNgKUrX7e61eMPWhZDqsiD4Bpe"],
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 export const services: ServiceRaw[] = [];

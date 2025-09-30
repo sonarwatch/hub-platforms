@@ -13,6 +13,6 @@ export const platform: PlatformRaw = {
     "xStpgUCss9piqeFUk2iLVcvJEGhAdJxJQuwLkXP555G",
     "StPsoHokZryePePFV8N7iXvfEmgUoJ87rivABX7gaW6",
   ],
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 export const services: ServiceRaw[] = [];

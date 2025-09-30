@@ -9,6 +9,6 @@ export const platform: PlatformRaw = {
     discord: "https://discord.gg/pancakeswap",
     github: "https://github.com/pancakeswap/",
   },
-  tags: ["dex"],
+  tags: ["dex", "dapp"],
 };
 export const services: ServiceRaw[] = [];

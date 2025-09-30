@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "alldomain",
   name: "AllDomain",
   description: "Web3 Identity for Everyone",
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
   links: {
     website: "https://alldomains.id/",
     discord: "https://discord.com/invite/alldomains",

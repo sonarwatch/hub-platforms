@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "RuneMine",
   description:
     "RuneMine by Mine Labs is building the ultimate infrastructure for Bitcoin-backed assets, unlocking the potential of tokens across Bitcoin and beyond.",
-  tags: ["bridge"],
+  tags: ["bridge", "dapp"],
   links: {
     website: "https://runemine.com",
     discord: "https://discord.gg/runemine",

@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/drip_haus",
     documentation: "https://drip.haus/faq",
   },
-  tags: ["nft-marketplace"],
+  tags: ["nft-marketplace", "dapp"],
 };
 
 export const services: ServiceRaw[] = [];

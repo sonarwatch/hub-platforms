@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "uprock",
   name: "UpRock",
   isDeprecated: true,
-  tags: ["depin"],
+  tags: ["depin", "dapp"],
   links: {
     website: "https://uprock.com/",
     discord: "https://discord.gg/uprock",

@@ -2,7 +2,7 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "portals",
   name: "Portals",
-  tags: ["gaming", "nft-collection"],
+  tags: ["gaming", "nft-collection", "dapp"],
   links: {
     website: "https://theportal.to/",
     twitter: "https://x.com/_portals_",

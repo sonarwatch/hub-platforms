@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "blaze",
   name: "Blaze Staked SOL",
   defiLlamaId: "blazestake",
-  tags: ["lst"],
+  tags: ["lst", "dapp"],
   links: {
     website: "https://stake.solblaze.org/",
   },

@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/degencoinflip",
     discord: "https://discord.gg/degencoinflip",
   },
-  tags: ["gaming"],
+  tags: ["gaming", "dapp"],
 };
 
 export const services: ServiceRaw[] = [];

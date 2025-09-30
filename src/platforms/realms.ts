@@ -11,6 +11,6 @@ export const platform: PlatformRaw = {
     github: "https://github.com/Mythic-Project",
     documentation: "https://docs.realms.today/",
   },
-  tags: ["dao", "tool"],
+  tags: ["dao", "tool", "dapp"],
 };
 export const services: ServiceRaw[] = [];

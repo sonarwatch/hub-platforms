@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "banger",
   name: "Banger",
   description: "Launch and trade tweetcoins.",
-  tags: ["social"],
+  tags: ["social", "dapp"],
   links: {
     website: "https://www.banger.lol/",
     twitter: "https://x.com/bangerdotlol",

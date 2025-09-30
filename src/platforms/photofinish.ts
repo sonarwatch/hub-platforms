@@ -10,6 +10,6 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/photofinishgame",
   },
   tokens: ["GDfnEsia2WLAW5t8yx2X5j2mkfA74i5kwGdDuZHt7XmG"],
-  tags: ["gaming"],
+  tags: ["gaming", "dapp"],
 };
 export const services: ServiceRaw[] = [];

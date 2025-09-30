@@ -2,7 +2,7 @@ import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "cytonic",
   name: "Cytonic",
-  tags: ["bridge", "tool"],
+  tags: ["bridge", "tool", "dapp"],
   links: {
     website: "https://www.cytonic.com/",
     twitter: "https://x.com/cytonic_com",

@@ -37,7 +37,8 @@ export type PlatformTag =
   | "dex"
   | "social"
   | "depin"
-  | "desci";
+  | "desci"
+  | "fitness";
 
 type Optional<T, K extends keyof T> = Pick<Partial<T>, K> & Omit<T, K>;
 

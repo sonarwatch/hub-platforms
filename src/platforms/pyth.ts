@@ -13,6 +13,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.pyth.network/home",
   },
   tokens: ["HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3"],
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 export const services: ServiceRaw[] = [];

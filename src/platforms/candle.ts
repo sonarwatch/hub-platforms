@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/candledottv",
   },
   tokens: ["A8bcY1eSenMiMy75vgSnp6ShMfWHRHjeM6JxfM1CNDL"],
-  tags: ["memecoin"],
+  tags: ["memecoin", "dapp"],
 };
 
 export const services: ServiceRaw[] = [];

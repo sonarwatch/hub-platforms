@@ -15,6 +15,7 @@ export const platform: PlatformRaw = {
   description:
     "Cropper is an decentralized exchange built on the Solana blockchain.",
   tags: ["dapp"],
+  isDeprecated: true,
 };
 
 export const services: ServiceRaw[] = [];

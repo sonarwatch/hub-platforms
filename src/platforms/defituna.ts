@@ -9,7 +9,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/DeFiTuna",
     documentation: "https://defituna.gitbook.io/defituna-docs",
   },
-  tags: ["dapp"],
+  tags: ["dapp", "dex"],
   tokens: ["TUNAfXDZEdQizTMTh3uEvNvYqJmqFHZbEJt8joP4cyx"],
 };
 

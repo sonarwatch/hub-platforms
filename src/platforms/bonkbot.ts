@@ -7,7 +7,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/bonkbot_io",
     documentation: "hhttps://docs.bonkbot.io/",
   },
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
 };
 
 export const services: ServiceRaw[] = [];

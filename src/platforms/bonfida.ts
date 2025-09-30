@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "SNS",
   description: "Web3 Identity for Everyone",
   defiLlamaId: "solana-name-service",
-  tags: ["tool"],
+  tags: ["tool", "dapp"],
   links: {
     website: "https://www.sns.id/",
     discord: "https://discord.com/invite/bonfida-778660171265474572",

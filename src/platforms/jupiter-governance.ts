@@ -8,7 +8,7 @@ export const platform: PlatformRaw = {
     twitter: "https://x.com/jup_dao",
   },
   tokens: ["JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"],
-  tags: ["dao"],
+  tags: ["dao", "dapp"],
 };
 
 export const services: ServiceRaw[] = [];

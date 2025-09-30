@@ -4,7 +4,7 @@ export const platform: PlatformRaw = {
   name: "Bonk Rewards",
   description: "Social layer and community meme coin of Solana.",
   defiLlamaId: "bonkswap",
-  tags: ["memecoin"],
+  tags: ["memecoin", "dapp"],
   links: {
     website: "https://bonkrewards.com/",
     discord: "https://discord.com/invite/qaQa6M6mN2",
