@@ -184,6 +184,7 @@ import * as solincinerator from "./solincinerator";
 import * as solomon from "./solomon";
 import * as solsave from "./solsave";
 import * as solsea from "./solsea";
+import * as solstice from "./solstice";
 import * as sonic from "./sonic";
 import * as spdr from "./spdr";
 import * as spice from "./spice";
@@ -402,6 +403,7 @@ export const platforms: PlatformRaw[] = [
   solomon.platform,
   solsave.platform,
   solsea.platform,
+  solstice.platform,
   sonic.platform,
   spdr.platform,
   spice.platform,
@@ -621,6 +623,7 @@ export const services: ServiceRaw[] = [
   ...solomon.services,
   ...solsave.services,
   ...solsea.services,
+  ...solstice.services,
   ...sonic.services,
   ...spdr.services,
   ...spice.services,
