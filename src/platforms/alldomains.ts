@@ -1,7 +1,7 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
-  id: "alldomain",
-  name: "AllDomain",
+  id: "alldomains",
+  name: "AllDomains",
   description: "Web3 Identity for Everyone",
   tags: ["tool", "dapp"],
   links: {
