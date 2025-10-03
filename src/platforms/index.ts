@@ -171,6 +171,7 @@ import * as saber from "./saber";
 import * as sanctum from "./sanctum";
 import * as sandglass from "./sandglass";
 import * as save from "./save";
+import * as sendit from "./sendit";
 import * as sentre from "./sentre";
 import * as serum from "./serum";
 import * as sharky from "./sharky";
@@ -390,6 +391,7 @@ export const platforms: PlatformRaw[] = [
   sanctum.platform,
   sandglass.platform,
   save.platform,
+  sendit.platform,
   sentre.platform,
   serum.platform,
   sharky.platform,
@@ -610,6 +612,7 @@ export const services: ServiceRaw[] = [
   ...sanctum.services,
   ...sandglass.services,
   ...save.services,
+  ...sendit.services,
   ...sentre.services,
   ...serum.services,
   ...sharky.services,
