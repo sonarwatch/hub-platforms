@@ -148,6 +148,7 @@ import * as phoenix from "./phoenix";
 import * as photofinish from "./photofinish";
 import * as photon from "./photon";
 import * as picasso from "./picasso";
+import * as playsolana from "./playsolana";
 import * as pluto from "./pluto";
 import * as port from "./port";
 import * as portals from "./portals";
@@ -369,6 +370,7 @@ export const platforms: PlatformRaw[] = [
   photofinish.platform,
   photon.platform,
   picasso.platform,
+  playsolana.platform,
   pluto.platform,
   port.platform,
   portals.platform,
@@ -591,6 +593,7 @@ export const services: ServiceRaw[] = [
   ...photofinish.services,
   ...photon.services,
   ...picasso.services,
+  ...playsolana.services,
   ...pluto.services,
   ...port.services,
   ...portals.services,
