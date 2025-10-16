@@ -38,6 +38,7 @@ import * as carrot from "./carrot";
 import * as circle from "./circle";
 import * as circuit from "./circuit";
 import * as citrus from "./citrus";
+import * as claimyoursols from "./claimyoursols";
 import * as clone from "./clone";
 import * as coinmarketcap from "./coinmarketcap";
 import * as cropper from "./cropper";
@@ -260,6 +261,7 @@ export const platforms: PlatformRaw[] = [
   circle.platform,
   circuit.platform,
   citrus.platform,
+  claimyoursols.platform,
   clone.platform,
   coinmarketcap.platform,
   cropper.platform,
@@ -483,6 +485,7 @@ export const services: ServiceRaw[] = [
   ...circle.services,
   ...circuit.services,
   ...citrus.services,
+  ...claimyoursols.services,
   ...clone.services,
   ...coinmarketcap.services,
   ...cropper.services,
