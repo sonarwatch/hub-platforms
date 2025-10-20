@@ -3,7 +3,7 @@ export const platform: PlatformRaw = {
   id: "gpool",
   name: "GPool",
   links: {
-    website: "https://stake.gpool.cloud/",
+    website: "https://github.com/gpool-cloud/gpool-staking-ui",
   },
   tags: ["dapp"],
   isDeprecated: true,
