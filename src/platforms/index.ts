@@ -140,6 +140,7 @@ import * as orca from "./orca";
 import * as orderly from "./orderly";
 import * as ore from "./ore";
 import * as oresupply from "./oresupply";
+import * as oro from "./oro";
 import * as pancakeswap from "./pancakeswap";
 import * as paraswap from "./paraswap";
 import * as parcl from "./parcl";
@@ -363,6 +364,7 @@ export const platforms: PlatformRaw[] = [
   orderly.platform,
   ore.platform,
   oresupply.platform,
+  oro.platform,
   pancakeswap.platform,
   paraswap.platform,
   parcl.platform,
@@ -587,6 +589,7 @@ export const services: ServiceRaw[] = [
   ...orderly.services,
   ...ore.services,
   ...oresupply.services,
+  ...oro.services,
   ...pancakeswap.services,
   ...paraswap.services,
   ...parcl.services,
