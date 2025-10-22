@@ -128,6 +128,7 @@ import * as meteora from "./meteora";
 import * as mintech from "./mintech";
 import * as moonwalk from "./moonwalk";
 import * as moose from "./moose";
+import * as nativeStake from "./native-stake";
 import * as neutral from "./neutral";
 import * as nirvana from "./nirvana";
 import * as nosana from "./nosana";
@@ -354,6 +355,7 @@ export const platforms: PlatformRaw[] = [
   mintech.platform,
   moonwalk.platform,
   moose.platform,
+  nativeStake.platform,
   neutral.platform,
   nirvana.platform,
   nosana.platform,
@@ -581,6 +583,7 @@ export const services: ServiceRaw[] = [
   ...mintech.services,
   ...moonwalk.services,
   ...moose.services,
+  ...nativeStake.services,
   ...neutral.services,
   ...nirvana.services,
   ...nosana.services,
