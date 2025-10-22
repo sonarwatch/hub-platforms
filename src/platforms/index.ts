@@ -99,6 +99,7 @@ import * as jupiterExchange from "./jupiter-exchange";
 import * as jupiterGovernance from "./jupiter-governance";
 import * as jupiterJupuary from "./jupiter-jupuary";
 import * as jupiterLaunchpad from "./jupiter-launchpad";
+import * as jupiterPm from "./jupiter-pm";
 import * as kamino from "./kamino";
 import * as kishu from "./kishu";
 import * as knightrade from "./knightrade";
@@ -324,6 +325,7 @@ export const platforms: PlatformRaw[] = [
   jupiterGovernance.platform,
   jupiterJupuary.platform,
   jupiterLaunchpad.platform,
+  jupiterPm.platform,
   kamino.platform,
   kishu.platform,
   knightrade.platform,
@@ -550,6 +552,7 @@ export const services: ServiceRaw[] = [
   ...jupiterGovernance.services,
   ...jupiterJupuary.services,
   ...jupiterLaunchpad.services,
+  ...jupiterPm.services,
   ...kamino.services,
   ...kishu.services,
   ...knightrade.services,
