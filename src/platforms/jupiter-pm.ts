@@ -1,7 +1,7 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 export const platform: PlatformRaw = {
   id: "jupiter-pm",
-  name: "Jup Prediction Market",
+  name: "Jup Prediction",
   description: "Jup Prediction Market, trade on real-world events.",
   links: {
     website: "https://jup.ag/prediction",
