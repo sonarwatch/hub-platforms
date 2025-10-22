@@ -6,6 +6,6 @@ export const platform: PlatformRaw = {
     website: "https://solana.com",
     documentation: "https://solana.com/docs/references/staking",
   },
-  tags: [],
+  tags: ["tool"],
 };
 export const services: ServiceRaw[] = [];
