@@ -12,5 +12,6 @@ export const platform: PlatformRaw = {
     documentation: "https://docs.meteora.ag/",
   },
   tags: ["dapp"],
+  tokens: ["METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL"],
 };
 export const services: ServiceRaw[] = [];
