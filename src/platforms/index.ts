@@ -126,8 +126,10 @@ import * as mayan from "./mayan";
 import * as metaplex from "./metaplex";
 import * as meteora from "./meteora";
 import * as mintech from "./mintech";
+import * as mooncake from "./mooncake";
 import * as moonwalk from "./moonwalk";
 import * as moose from "./moose";
+import * as nativeStake from "./native-stake";
 import * as neutral from "./neutral";
 import * as nirvana from "./nirvana";
 import * as nosana from "./nosana";
@@ -352,8 +354,10 @@ export const platforms: PlatformRaw[] = [
   metaplex.platform,
   meteora.platform,
   mintech.platform,
+  mooncake.platform,
   moonwalk.platform,
   moose.platform,
+  nativeStake.platform,
   neutral.platform,
   nirvana.platform,
   nosana.platform,
@@ -579,8 +583,10 @@ export const services: ServiceRaw[] = [
   ...metaplex.services,
   ...meteora.services,
   ...mintech.services,
+  ...mooncake.services,
   ...moonwalk.services,
   ...moose.services,
+  ...nativeStake.services,
   ...neutral.services,
   ...nirvana.services,
   ...nosana.services,
