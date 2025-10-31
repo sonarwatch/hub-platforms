@@ -88,6 +88,7 @@ import * as hawksight from "./hawksight";
 import * as hedgehog from "./hedgehog";
 import * as hedgy from "./hedgy";
 import * as helium from "./helium";
+import * as helius from "./helius";
 import * as holdium from "./holdium";
 import * as honeyland from "./honeyland";
 import * as hubble from "./hubble";
@@ -133,6 +134,7 @@ import * as moose from "./moose";
 import * as nativeStake from "./native-stake";
 import * as neutral from "./neutral";
 import * as nirvana from "./nirvana";
+import * as nodepay from "./nodepay";
 import * as nosana from "./nosana";
 import * as nxfinance from "./nxfinance";
 import * as okx from "./okx";
@@ -319,6 +321,7 @@ export const platforms: PlatformRaw[] = [
   hedgehog.platform,
   hedgy.platform,
   helium.platform,
+  helius.platform,
   holdium.platform,
   honeyland.platform,
   hubble.platform,
@@ -364,6 +367,7 @@ export const platforms: PlatformRaw[] = [
   nativeStake.platform,
   neutral.platform,
   nirvana.platform,
+  nodepay.platform,
   nosana.platform,
   nxfinance.platform,
   okx.platform,
@@ -551,6 +555,7 @@ export const services: ServiceRaw[] = [
   ...hedgehog.services,
   ...hedgy.services,
   ...helium.services,
+  ...helius.services,
   ...holdium.services,
   ...honeyland.services,
   ...hubble.services,
@@ -596,6 +601,7 @@ export const services: ServiceRaw[] = [
   ...nativeStake.services,
   ...neutral.services,
   ...nirvana.services,
+  ...nodepay.services,
   ...nosana.services,
   ...nxfinance.services,
   ...okx.services,
