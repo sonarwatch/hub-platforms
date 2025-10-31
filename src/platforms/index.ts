@@ -32,6 +32,7 @@ import * as bouncebit from "./bouncebit";
 import * as brawl from "./brawl";
 import * as bskt from "./bskt";
 import * as btcsol from "./btcsol";
+import * as bulktrade from "./bulktrade";
 import * as byreal from "./byreal";
 import * as candle from "./candle";
 import * as carrot from "./carrot";
@@ -262,6 +263,7 @@ export const platforms: PlatformRaw[] = [
   brawl.platform,
   bskt.platform,
   btcsol.platform,
+  bulktrade.platform,
   byreal.platform,
   candle.platform,
   carrot.platform,
@@ -493,6 +495,7 @@ export const services: ServiceRaw[] = [
   ...brawl.services,
   ...bskt.services,
   ...btcsol.services,
+  ...bulktrade.services,
   ...byreal.services,
   ...candle.services,
   ...carrot.services,
