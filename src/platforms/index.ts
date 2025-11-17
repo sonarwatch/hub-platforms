@@ -138,6 +138,7 @@ import * as nodepay from "./nodepay";
 import * as nosana from "./nosana";
 import * as nxfinance from "./nxfinance";
 import * as okx from "./okx";
+import * as omni from "./omni";
 import * as ondoFinance from "./ondo-finance";
 import * as onre from "./onre";
 import * as openbook from "./openbook";
@@ -371,6 +372,7 @@ export const platforms: PlatformRaw[] = [
   nosana.platform,
   nxfinance.platform,
   okx.platform,
+  omni.platform,
   ondoFinance.platform,
   onre.platform,
   openbook.platform,
@@ -605,6 +607,7 @@ export const services: ServiceRaw[] = [
   ...nosana.services,
   ...nxfinance.services,
   ...okx.services,
+  ...omni.services,
   ...ondoFinance.services,
   ...onre.services,
   ...openbook.services,
