@@ -3,6 +3,7 @@
 import { PlatformRaw, ServiceRaw } from "../types";
 
 import * as _01 from "./01";
+import * as _1inch from "./1inch";
 import * as accessprotocol from "./accessprotocol";
 import * as adrastea from "./adrastea";
 import * as adrena from "./adrena";
@@ -237,6 +238,7 @@ import * as zeus from "./zeus";
 
 export const platforms: PlatformRaw[] = [
   _01.platform,
+  _1inch.platform,
   accessprotocol.platform,
   adrastea.platform,
   adrena.platform,
@@ -472,6 +474,7 @@ export const platforms: PlatformRaw[] = [
 
 export const services: ServiceRaw[] = [
   ..._01.services,
+  ..._1inch.services,
   ...accessprotocol.services,
   ...adrastea.services,
   ...adrena.services,
