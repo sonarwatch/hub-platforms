@@ -147,6 +147,7 @@ import * as openloop from "./openloop";
 import * as orca from "./orca";
 import * as orderly from "./orderly";
 import * as ore from "./ore";
+import * as oreblue from "./oreblue";
 import * as oresupply from "./oresupply";
 import * as oro from "./oro";
 import * as pancakeswap from "./pancakeswap";
@@ -382,6 +383,7 @@ export const platforms: PlatformRaw[] = [
   orca.platform,
   orderly.platform,
   ore.platform,
+  oreblue.platform,
   oresupply.platform,
   oro.platform,
   pancakeswap.platform,
@@ -618,6 +620,7 @@ export const services: ServiceRaw[] = [
   ...orca.services,
   ...orderly.services,
   ...ore.services,
+  ...oreblue.services,
   ...oresupply.services,
   ...oro.services,
   ...pancakeswap.services,
