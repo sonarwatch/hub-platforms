@@ -25,6 +25,7 @@ import * as believe from "./believe";
 import * as bio from "./bio";
 import * as blaze from "./blaze";
 import * as bloom from "./bloom";
+import * as blueshift from "./blueshift";
 import * as bonfida from "./bonfida";
 import * as bonkbot from "./bonkbot";
 import * as bonkrewards from "./bonkrewards";
@@ -113,6 +114,7 @@ import * as layer3 from "./layer3";
 import * as lifinity from "./lifinity";
 import * as ligma from "./ligma";
 import * as lince from "./lince";
+import * as lodesupply from "./lodesupply";
 import * as lombard from "./lombard";
 import * as loopscale from "./loopscale";
 import * as m1capital from "./m1capital";
@@ -127,6 +129,7 @@ import * as marginfi from "./marginfi";
 import * as marinade from "./marinade";
 import * as maxbid from "./maxbid";
 import * as mayan from "./mayan";
+import * as melee from "./melee";
 import * as metaplex from "./metaplex";
 import * as meteora from "./meteora";
 import * as mintech from "./mintech";
@@ -264,6 +267,7 @@ export const platforms: PlatformRaw[] = [
   bio.platform,
   blaze.platform,
   bloom.platform,
+  blueshift.platform,
   bonfida.platform,
   bonkbot.platform,
   bonkrewards.platform,
@@ -352,6 +356,7 @@ export const platforms: PlatformRaw[] = [
   lifinity.platform,
   ligma.platform,
   lince.platform,
+  lodesupply.platform,
   lombard.platform,
   loopscale.platform,
   m1capital.platform,
@@ -366,6 +371,7 @@ export const platforms: PlatformRaw[] = [
   marinade.platform,
   maxbid.platform,
   mayan.platform,
+  melee.platform,
   metaplex.platform,
   meteora.platform,
   mintech.platform,
@@ -504,6 +510,7 @@ export const services: ServiceRaw[] = [
   ...bio.services,
   ...blaze.services,
   ...bloom.services,
+  ...blueshift.services,
   ...bonfida.services,
   ...bonkbot.services,
   ...bonkrewards.services,
@@ -592,6 +599,7 @@ export const services: ServiceRaw[] = [
   ...lifinity.services,
   ...ligma.services,
   ...lince.services,
+  ...lodesupply.services,
   ...lombard.services,
   ...loopscale.services,
   ...m1capital.services,
@@ -606,6 +614,7 @@ export const services: ServiceRaw[] = [
   ...marinade.services,
   ...maxbid.services,
   ...mayan.services,
+  ...melee.services,
   ...metaplex.services,
   ...meteora.services,
   ...mintech.services,
