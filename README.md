@@ -1,3 +1,5 @@
+## DEPRECATED: use https://github.com/jup-ag/platform-list
+
 # Hub Platforms
 
 A comprehensive registry of platforms in the Solana DeFi ecosystem. This package provides structured platform data including metadata, links, and token information.
